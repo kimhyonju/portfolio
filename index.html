@@ -1,39 +1,246 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="utf-8">
-    <title>KIM Portfolio</title>
-    <meta name="description" content="kim's Portgolio">
-  </head>
- 
-  <body>
-      <center>
-    <img src="gaoshasin.jpg" width="280" height="380"> 
-    <h1>KIM HYONJU</h1>
-    <p>ウェブデザイナーです</p> 
-     <h2>works</h2>
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta lang="ja">
+		<meta name="viewport" content="width=device-width; user-scaclable=no">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="css/responsive.css" rel="stylesheet" type="text/css" media="screen and (min-width:1000px)">
+		<link href="css/animate.min.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/jquery.bxslider.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+		
+		<title>KIM Portfolio</title>
+		<link rel="shortcut icon" href="/images/favicon.ico">
+	</head>
+	<body>
+						<!--メニュStart--> 
+		<div id="navinoba">
+			<nav>
+				<ul>
+					<li class="menu"><a href="#top">ホーム</a></li>
+					<li class="menu"><a href="#content">ウェブデザイン</a></li>
+					<li class="menu"><a href="#logodesign">ロゴ/イベント</a></li>
+					<li class="menu"><a href="#printdesign">印刷デザイン</a></li>				
+					<li class="menu"><a href="#sketch">スケッチ</a></li>
+					<li class="menu"><a href="#shooting">撮影</a></li>
+					<li class="menu"><a href="#profile">プロフィール</a></li>
+				</ul>
+				<a href="#" id="trigger"><p>LIST</p></a>
+			</nav>
+		</div>
+					<!--メニュEnd-->
 
-    <img src="portfolio-2.jpg" width="400" height="300" alt="pot-2">
-    <h3>works1</h3>
-    <p>wwwwwwwwwwwwwwwwwwwwwwwwwwww</p>
-
-    <img src="portfolio-3.jpg" width="400" height="300" alt="pot-3">
-    <h3>works2</h3>
-    <p>wwwwwwwwwwwwwwwwwwwwwwwwwwww</p>
-
-    <img src="portfolio-4.jpg" width="400" height="300" alt="pot-3">
-    <h3>works3</h3>
-    <p>wwwwwwwwwwwwwwwwwwwwwwwwwwww</p>
-    <img src="portfolio-5.jpg" width="400" height="300" alt="pot-3">
-    <h3>works3</h3>
-    <p>wwwwwwwwwwwwwwwwwwwwwwwwwwww</p>
-    <img src="portfolio-6.jpg" width="400" height="300" alt="pot-3">
-    <h3>works3</h3>
-    <p>wwwwwwwwwwwwwwwwwwwwwwwwwwww</p>
-   
-  </center>
-  </body>
+	<div class="mainslide" id="top">
+		<div id="mainslide">
+				<div class="mainslide-first maincm">			
+					<div id="mainp">
+						<p class="maintopb">Kim</p>
+						<p class="mainmidb">I'm <span style="color:#7ed6df; font-weight:bold; font-family:'Playfair Display SC', serif; font-size:1.5em;">C</span>REATIVE</p>
+						<p class="mainbotb">PORTFOLIO</p>
+					</div>
+				</div>
+				<div class="mainslide-second maincm">
+					<div id="mainp">				
+						<p class="maintopb">Kim</p>
+						<p class="mainmidb">I'm <span style="color:#7ed6df; font-weight:bold; font-family:'Playfair Display SC', serif; font-size:1.5em;">E</span>NTERTAINER</p>
+						<p class="mainbotb">PORTFOLIO</p>
+					</div>
+				</div>
+				<div class="mainslide-third maincm">			
+					<div id="mainp">
+						<p class="maintopb">Kim</p>
+						<p class="mainmidb">I CAN DO ANYTHING</p>
+						<p class="mainbotb">PORTFOLIO</p>
+					</div>
+				</div>
+		</div>	
+		<div class="slide-icon">
+			<a href="#content"><i class="fas fa-angle-down"></i></a>		
+		</div>
+	</div>
+					<!--Web contents Start-->
+		<div id="wrapper">
+				<div id="content">
+					<div class="areacon">
+						<div class="wow fadeIn animated">
+							<h2>Web Related</h2>
+							<p>ウェブデザイン</p>
+						</div>
+							<div id="columns" class="webdesign">
+								<div id="web-first" class="web-box wow fadeInDown animated">
+									<img src="images/webportfolio_1.png">
+									<p>banner</p>
+								</div>
+								<div id="web-second" class="web-box wow fadeInDown animated">
+									<img src="images/webportfolio_2.png">
+									<p>banner</p>
+								</div>
+								<div id="web-third" class="web-box wow fadeInDown animated">
+									<img src="images/webportfolio_3.png">
+									<p>banner</p>
+								</div>
+							</div>
+						
+					</div>
+				</div>
+					<!--Web contents End-->
+					<!--Logo contents Start-->
+				<div id="content">
+					<div id="logodesign">
+						<div class="areacon">
+							<div class="wow fadeIn animated">
+							<h2>Logo/Event</h2>
+							<p>ロゴ/イベント</p>
+							</div>
+						</div>
+					</div>
+				</div>
+						<!--Logo contents End-->
+					<!--Print contents Start-->
+				<div id="content">
+					<div id="printdesign">
+						<div class="areacon">
+							<div class="wow fadeIn animated">
+								<h2>Edit Print</h2>
+								<p>印刷デザイン</p>
+							</div>
+						</div>
+					</div>
+				</div>
+						<!--Print contents End-->
+						<!--Sketch contents Start-->
+				<div id="content">
+					<div id="sketch">
+						<div class="areacon">
+							<div class="wow fadeIn animated">
+								<h2>Design Sketch</h2>
+								<p>スケッチ</p>
+							</div>
+						</div>
+					</div>
+				</div>
+						<!--Sketch contents End-->
+						<!--Shooting contents Start-->
+				<div id="content">
+					<div id="shooting">
+						<div class="areacon">
+							<div class="wow fadeIn animated">
+								<h2>Photo shooting</h2>
+								<p>撮影</p>
+							</div>
+						</div>
+					</div>
+				</div>
+						<!--Shooting contents End-->
+						<!--profile contents Start-->
+				<div id="content">
+					<div id="profile">
+						<div class="areacon">
+							<div class="wow fadeIn animated">
+								<h2>Profile</h2>
+								<p>プロフィール</p>
+							</div>
+						</div>
+					</div>
+				</div>
+						<!--Profile contents End-->
+			</div>
+		</div>
+			<!--footer Start-->
+		<footer id="footsec">
+			<section>
+				<div class="footheadp"><p>Thank you!<br>Please Contact me!</p>
+				</div>
+				<div class="footcontac"><p>KIM HYONJU<br>linalove1229@yahoo.co.jp</p>
+				</div>
+			</section>
+		</footer>
+			<!--footer End-->
+			<!--Javascript Start-->
+		<script src="js/jquery-2.2.4.min.js"></script>
+		<script src="js/jquery.bxslider.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/jquery.scrollTo.min.js"></script>
+		<script>
+		$(function() {
+			  $('#mainslide').bxSlider({
+				mode: 'fade',
+				speed: '1000',
+				pause: 4000,
+				auto: true,
+				pager: false, 
+				moveSlides: 1,
+				controls: false, 
+				adaptiveHeight:true,
+				/*スライドが全部ロードされた時に実行する*/
+				onSliderLoad:function(){
+				}
+          });
+			var windowWidth = $(window).width(),
+			windowHeight = $(window).height(),
+			adjHeight = windowHeight;
+			$('#mainslide').css({
+				'width': windowWidth + 'px',
+				'height': adjHeight + 'px'
+				});
+			});
+		$(window).resize(function() {
+			var windowWidth = $(window).width(),
+				windowHeight = $(window).height(),
+				adjHeight = windowHeight;
+			$('#mainslide').css({
+				'width': windowWidth + 'px',
+				'height': adjHeight + 'px'
+			});
+			$('#mainslide').css({
+				'min-width': windowWidth + 'px',
+				'min-height': adjHeight + 'px'
+			});
+		});
+		// Tip: avoid this ton of code using AniJS ;)
+		var element = $('.web-box');
+		 
+		 // when mouseover execute the animation
+		element.mouseover(function(){
+		  
+		  // the animation starts
+		  element.toggleClass('fadeInDown animated');
+		  
+		  // do something when animation ends
+		  element.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(e){
+		   
+		   // trick to execute the animation again
+			$(e.target).removeClass('fadeInDown animated');
+		  });  
+		});
+		
+		/*WOW script*/
+		new WOW().init();
+		
+		/*Smooth Scroll*/
+		$(function(){
+			$('nav a').click(function(e){
+				$.scrollTo(this.hash || 0, 1500);
+				e.preventDefault();
+			});
+		});
+		/*Trigger*/
+		$(function () {
+			var trigger = $('#trigger');
+			var menu = $('nav ul');
+			$(trigger).on('click', function (e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+			$(window).resize(function () {
+				var w = $(window).width();
+				if (w > 320 && menu.is(':hidden')) {
+					LIST.removeAttr('style');
+				}
+			});
+		});
+		</script>
+			<!--Javascript End-->
+	</body>
 </html>
-
-
-

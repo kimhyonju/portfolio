@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c|Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Playfair+Display+SC&display=swap');
+
+/*スマホ対応css--------------------------------------------------------------------------------------------------*/
+* {
+	margin:0;
+	padding:0;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+body{
+	margin:0;
+	padding:0;
+	}   
+/*スライダー*/
+.mainslide{
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	overflow: auto;
+	right: 0;
+	top: 0;
+}
+#mainslide{
+	margin:0;
+	padding:0;
+}
+.mainslide-first{
+	background: url('../images/mainslide_1.jpg') no-repeat center center;
+	background-size:cover;
+}
+.mainslide-second{
+	background: url('../images/mainslide_2.jpg') no-repeat center center;
+	background-size:cover;
+}
+.mainslide-third{
+	background: url('../images/mainslide_3.jpg') no-repeat center center;
+	background-size:cover;
+}
+.maincm {
+	width:100%;
+	min-height: 100vh;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+#mainp{
+	width:100%;
+	position:absolute;
+	top:20%;
+}
+.maintopb {
+	width:300px;
+	height:300px;
+	display:block;	
+	margin:0 auto 0.3em;
+	border-radius:50%;
+	background-color:#7ed6df;
+	margin-bottom:20px;
+}
+p.maintopb{
+	font-family:'Great Vibes', cursive;
+	color:#fff;
+	text-align:center;
+	line-height:320px;
+	font-size:8em;
+	letter-spacing:10px;
+}
+.mainmidb{
+	width:100%;
+	margin-bottom:0.5em;
+}
+p.mainmidb {
+	color:#fff;
+	text-align:center;
+	font-size:8em;
+	line-height: 1em;
+	letter-spacing:8px;
+	font-family: 'Playfair Display SC', serif;
+	text-shadow:0px 1px 1px #c1c1c1; 
+}
+.mainbotb{
+	width:100%;
+	margin-bottom:10px;
+}
+p.mainbotb{
+	color:#fff;
+	text-align:center;
+	font-size:2em;
+	letter-spacing:5px;
+	font-family: 'Playfair Display SC', serif;
+}
+.slide-icon{
+	position:absolute;
+	left:50%;
+	bottom:10%;
+}
+ .fa-angle-down{
+    color:#fff;
+    font-size:30px;
+	margin-left: -12px;
+    -webkit-animation: bounce 3000ms infinite;
+    animation: bounce 3000ms infinite;
+}
+#wrapper {
+	width:100%;
+	min-width:300px;
+	margin:0;
+}
+
+/* ナビゲーション */
+
+#navinoba{
+	top: 0; 
+} 
+nav {
+	position:relative;
+	width:100%;
+	height:auto;
+	background:#7ed6df;
+}
+nav a:link, nav a:visited {
+	font-size:1.5em;
+	color:#fff;
+	text-decoration:none;
+	text-align:center;
+}
+nav ul{
+	display:none;
+	height:auto;
+}
+nav ul li{
+	display:block;
+	width:100%;
+	text-align:center;
+	border-bottom:1px solid #fff;
+}
+nav ul li a{
+	line-height:100px;
+}
+.menu{
+	font-size:1.8em;
+	height:100px;
+	text-decoration:none;
+	line-height:20px;
+}
+nav a#trigger{
+	display:block;
+	background:#7ed6df;
+	font-size:3em;
+	line-height:100px;
+	width:100%;
+	height:100px;
+	position:relative;
+	text-align:left;
+}
+nav a#trigger::after {
+	content: "";
+	background: url('../images/nav.png') no-repeat;
+	background-size:60px;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	position: absolute;
+	right: 50px;
+	top: 18px;
+  }        
+nav a p{
+	position: absolute;
+	left: 40px;
+}
+/*コンテンツ */
+#content{
+	width:100%;
+	height:auto;
+}
+#content:nth-child(odd) {
+    background-color: #f3f3f4;
+}
+.areacon{
+	width:100%;
+	padding-top:50px;
+}
+.areacon p{
+	font-family:'M PLUS Rounded 1c';
+	font-size:1.3em;
+	color:black;
+	line-height:30px;
+	text-align:center;
+}
+h2 {
+	font-size:2em;
+	color:black;
+	text-align:center;
+}
+.fadeIn > p{
+	font-family:'M PLUS Rounded 1c';
+	font-size:1.8em;
+	color:black;
+	line-height:30px;
+	text-align:center;
+}
+.web-box{
+	display:inline-block;
+	width:80%;
+	padding:10%;
+	text-align:center;
+}
+.fadeIn {
+  width:100%;
+  height:80px;
+  margin-bottom:20px;
+}
+
+#columns{
+	display: grid;
+	-webkit-column-count:1;
+	-moz-column-count:1;
+	column-count:1;
+}
+#web-first{
+	display:block;
+}
+#web-second{
+	display:block;
+}
+#web-third{
+	display:block;
+}
+#web-first img{
+	width:90%;
+}
+#web-second img{
+	width:90%;
+}
+#web-third img{
+	width:90%;
+}
+
+/*フッター*/
+#footsec {
+	width:100%;
+	height:400px;
+	background-color:#7ed6df;
+}
+.footheadp {
+	text-align:center;
+	font-size:3em;
+	color:#fff;
+	font-weight:bold;
+	padding-top:50px;
+}
+.footcontac {
+	text-align:center;
+	font-size:2em;
+	color:#fff;
+	font-weight:bold;
+	text-shadow:1px 1px 1px #22a6b3;
+	padding-top:10px;
+}
+
