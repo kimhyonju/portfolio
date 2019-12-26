@@ -118,14 +118,11 @@ p.mainbotb{
 	right:0;
 	z-index: 999;
 } 
-#navinoba.scrolled {
+#navinoba.scrolled{
 	background-color:#7ed6df !important;
 	transition: background-color 600ms linear;
   }
-#trigger.scrolled {
-	background-color:#7ed6df !important;
-	transition: background-color 600ms linear;
-  }
+
 nav {
 	position:relative;
 	width:100%;

@@ -19,7 +19,7 @@
 					<!--メニュEnd-->
 
 	<div class="mainslide" id="top">
-		<div id="navinoba" >
+		<div id="navinoba">
 			<nav>
 				<ul>
 					<li class="menu"><a href="#top">ホーム</a></li>
@@ -249,7 +249,7 @@
 		/*nav Scroll color chage*/
 		$(function () {
 			$(document).scroll(function () {
-				var $nav = $("#navinoba #trigger");
+				var $nav = $("#navinoba");
 				$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 			});
 		});
