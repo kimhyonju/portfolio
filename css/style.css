@@ -112,23 +112,34 @@ p.mainbotb{
 /* ナビゲーション */
 
 #navinoba{
+	position:fixed;
 	top: 0; 
+	left:0;
+	right:0;
+	z-index: 999;
 } 
+#navinoba.scrolled {
+	background-color:#7ed6df !important;
+	transition: background-color 600ms linear;
+  }
+#trigger.scrolled {
+	background-color:#7ed6df !important;
+	transition: background-color 600ms linear;
+  }
 nav {
 	position:relative;
 	width:100%;
 	height:auto;
-	background:#7ed6df;
+
 }
 nav a:link, nav a:visited {
-	font-size:1.5em;
 	color:#fff;
 	text-decoration:none;
-	text-align:center;
 }
 nav ul{
 	display:none;
 	height:auto;
+	background:#7ed6df;
 }
 nav ul li{
 	display:block;
@@ -147,7 +158,7 @@ nav ul li a{
 }
 nav a#trigger{
 	display:block;
-	background:#7ed6df;
+	background:none;
 	font-size:3em;
 	line-height:100px;
 	width:100%;

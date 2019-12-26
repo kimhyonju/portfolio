@@ -15,6 +15,10 @@
 	</head>
 	<body>
 						<!--メニュStart--> 
+
+					<!--メニュEnd-->
+
+	<div class="mainslide" id="top">
 		<div id="navinoba" >
 			<nav>
 				<ul>
@@ -29,9 +33,6 @@
 				<a href="#" id="trigger"><p>LIST</p></a>
 			</nav>
 		</div>
-					<!--メニュEnd-->
-
-	<div class="mainslide" id="top">
 		<div id="mainslide">
 				<div class="mainslide-first maincm">			
 					<div id="mainp">
@@ -163,6 +164,7 @@
 		<script src="js/wow.min.js"></script>
 		<script src="js/jquery.scrollTo.min.js"></script>
 		<script>
+			/*Main Slide bxslider*/
 		$(function() {
 			  $('#mainslide').bxSlider({
 				mode: 'fade',
@@ -177,6 +179,7 @@
 				onSliderLoad:function(){
 				}
           });
+		  	/*Main Slide full screen*/
 			var windowWidth = $(window).width(),
 			windowHeight = $(window).height(),
 			adjHeight = windowHeight;
@@ -185,6 +188,7 @@
 				'height': adjHeight + 'px'
 				});
 			});
+			/*Main Slide responsiv resize*/
 		$(window).resize(function() {
 			var windowWidth = $(window).width(),
 				windowHeight = $(window).height(),
@@ -215,7 +219,7 @@
 		  });  
 		});
 		
-		/*WOW script*/
+		/*WOW scroll 表示される*/
 		new WOW().init();
 		
 		/*Smooth Scroll*/
@@ -225,7 +229,8 @@
 				e.preventDefault();
 			});
 		});
-		/*Trigger*/
+
+		/*nav mobile Trigger*/
 		$(function () {
 			var trigger = $('#trigger');
 			var menu = $('nav ul');
@@ -238,6 +243,14 @@
 				if (w > 320 && menu.is(':hidden')) {
 					LIST.removeAttr('style');
 				}
+			});
+		});
+
+		/*nav Scroll color chage*/
+		$(function () {
+			$(document).scroll(function () {
+				var $nav = $("#navinoba #trigger");
+				$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 			});
 		});
 		</script>
