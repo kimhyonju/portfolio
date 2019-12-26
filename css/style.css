@@ -144,15 +144,16 @@ nav ul li{
 	border-bottom:1px solid #fff;
 }
 nav ul li a{
+	display:block;
 	line-height:100px;
 }
 .menu{
-	font-size:1.8em;
+	font-size:2.5em;
 	height:100px;
 	text-decoration:none;
 	line-height:20px;
 }
-nav a#trigger{
+nav #trigger{
 	display:block;
 	background:none;
 	font-size:3em;
@@ -162,7 +163,7 @@ nav a#trigger{
 	position:relative;
 	text-align:left;
 }
-nav a#trigger::after {
+nav #trigger::after {
 	content: "";
 	background: url('../images/nav.png') no-repeat;
 	background-size:60px;
@@ -173,8 +174,9 @@ nav a#trigger::after {
 	right: 50px;
 	top: 18px;
   }        
-nav a p{
+nav #trigger p{
 	position: absolute;
+	color:#fff;
 	left: 40px;
 }
 /*コンテンツ */

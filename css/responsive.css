@@ -69,7 +69,7 @@ nav ul li:last-child {
 	line-height:30px;
 	margin:10px 3px 3px 3px;
 }
-nav a#trigger {
+nav #trigger {
 	  display: none;
 	}  
 /*PC content*/
