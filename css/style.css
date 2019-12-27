@@ -57,7 +57,7 @@ a:link, a:visited{
 #mainslide #mainp .maintopb{
 	transition:1s all; 
 	opacity:0; 
-	transform:translate(0,250px)
+	transform:translate(0,-250px)
 	}
 #mainslide .active #mainp .maintopb { 
 	opacity:1; 
