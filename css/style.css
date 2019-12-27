@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c|Nunito+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes|Playfair+Display+SC&display=swap');
-@media screen and (min-width:321px) and (max-width:999px){
+@media screen and (min-width:321px) {
 /*スマホ対応css--------------------------------------------------------------------------------------------------*/
 * {
 	margin:0;
