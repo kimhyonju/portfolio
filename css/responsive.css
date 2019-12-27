@@ -1,8 +1,6 @@
 /*PC対応css Start media="screen and (min-width:769px)"-----------------------------------------*/
 /*PC slide*/
-.slide-icon{
-	top:90%;
-}
+
 #mainp{
 	position:absolute;
 	top:15%;
@@ -25,6 +23,17 @@ p.mainmidb {
 	line-height: 1em;
 	letter-spacing:10px;
 	font-family: 'Playfair Display SC', serif;
+}
+.startbt{
+	width: 140px;
+	height: 40px;
+	font-size: 1em;
+	line-height: 2.5;
+	margin-top:10px;
+	margin: 2em auto 0.3em;
+}
+.slide-icon{
+	top:95%;
 }
 /*PC nav*/
 #navinoba{

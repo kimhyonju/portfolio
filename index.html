@@ -39,6 +39,7 @@
 						<p class="maintopb">Kim</p>
 						<p class="mainmidb fadeInLeftBig animated">I'm <span style="color:#7ed6df; font-weight:bold; font-family:'Playfair Display SC', serif; font-size:1.5em;">C</span>REATIVE</p>
 						<p class="mainbotb fadeInRightBig animated">PORTFOLIO</p>
+						<a href="#content"><p class="startbt fadeInUpBig animated">START NOW</p></a>
 					</div>
 				</div>
 				<div class="mainslide-second maincm">
@@ -46,6 +47,7 @@
 						<p class="maintopb">Kim</p>
 						<p class="mainmidb fadeInLeftBig animated">I'm <span style="color:#7ed6df; font-weight:bold; font-family:'Playfair Display SC', serif; font-size:1.5em;">E</span>NTERTAINER</p>
 						<p class="mainbotb fadeInRightBig animated">PORTFOLIO</p>
+						<a href="#content"><p class="startbt fadeInUpBig animated">START NOW</p></a>
 					</div>
 				</div>
 				<div class="mainslide-third maincm">			
@@ -53,6 +55,7 @@
 						<p class="maintopb">Kim</p>
 						<p class="mainmidb fadeInLeftBig animated">I CAN DO ANYTHING</p>
 						<p class="mainbotb fadeInRightBig animated">PORTFOLIO</p>
+						<a href="#content"><p class="startbt fadeInUpBig animated">START NOW</p></a>
 					</div>
 				</div>
 		</div>	
@@ -233,6 +236,10 @@
 		/*Smooth Scroll*/
 		$(function(){
 			$('nav a').click(function(e){
+				$.scrollTo(this.hash || 0, 1500);
+				e.preventDefault();
+			});
+			$('#mainslide a').click(function(e){
 				$.scrollTo(this.hash || 0, 1500);
 				e.preventDefault();
 			});
