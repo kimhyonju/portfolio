@@ -22,7 +22,10 @@ p.mainmidb {
 	font-size:6em;
 	line-height: 1em;
 	letter-spacing:10px;
-	font-family: 'Playfair Display SC', serif;
+}
+p.mainbotb{
+	font-size:1em;
+	letter-spacing:1px;
 }
 .startbt{
 	width: 140px;
