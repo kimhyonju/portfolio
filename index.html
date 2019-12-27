@@ -183,7 +183,7 @@
 					//スライドロード変わる時、既存の.maintopb隠し
 					$('#mainslide > div').not('.bx-clone').eq(oldIndex).removeClass('active')
 					},onSlideAfter: function($slideElement,oldIndex,newIndex){
-					//スライド移動後、該当の.maintopbフェードイン
+					//スライド移動後、該当の.maintopbフェードイン 
 					$('#mainslide > div').not('.bx-clone').eq(newIndex).addClass('active')
 					}
           });
