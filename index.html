@@ -177,7 +177,15 @@
 				adaptiveHeight:true,
 				/*スライドが全部ロードされた時に実行する*/
 				onSliderLoad:function(){
-				}
+					 //スライドロード後、 一番目の .maintopb フェードイン
+					$('#mainslide > div').not('.bx-clone').eq(0).addClass('active')
+					},onSlideBefore:function($slideElement,oldIndex,newIndex){
+					//スライドロード変わる時、既存の.maintopb隠し
+					$('#mainslide > div').not('.bx-clone').eq(oldIndex).removeClass('active')
+					},onSlideAfter: function($slideElement,oldIndex,newIndex){
+					//スライド移動後、該当の.maintopbフェードイン
+					$('#mainslide > div').not('.bx-clone').eq(newIndex).addClass('active')
+					}
           });
 		  	/*Main Slide full screen*/
 			var windowWidth = $(window).width(),

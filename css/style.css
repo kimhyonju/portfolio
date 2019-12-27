@@ -50,6 +50,17 @@ body{
 	position:absolute;
 	top:20%;
 }
+
+
+#mainslide #mainp .maintopb{
+	transition:1s all; 
+	opacity:0; 
+	transform:translate(0,250px)
+	}
+#mainslide .active #mainp .maintopb { 
+	opacity:1; 
+	transform:translate(0,0)
+}
 .maintopb {
 	width:300px;
 	height:300px;
