@@ -253,10 +253,17 @@
 				e.preventDefault();
 				menu.slideToggle();
 			});
+			$(menu).on('click', function (e) {
+				var w = $(window).width();
+				if (w < 1000) {
+					e.preventDefault();
+					menu.slideToggle();
+				}
+			});
 			$(window).resize(function () {
 				var w = $(window).width();
 				if (w > 320 && menu.is(':hidden')) {
-					LIST.removeAttr('style');
+					menu.removeAttr('style');
 				}
 			});
 		});
