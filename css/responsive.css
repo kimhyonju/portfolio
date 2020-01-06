@@ -28,12 +28,12 @@ p.mainbotb{
 	letter-spacing:1px;
 }
 .startbt{
-	width: 140px;
-	height: 40px;
 	font-size: 1em;
-	line-height: 2.5;
-	margin-top:10px;
-	margin: 2em auto 0.3em;
+	left: 46%;
+	width: 8%;
+	height: 40px;
+	line-height: 40px;
+	margin: 2em auto 0.5em;
 }
 .startbt:hover{
 	background-color: #22a6b3;
