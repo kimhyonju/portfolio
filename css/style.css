@@ -167,9 +167,10 @@ nav a:link, nav a:visited {
 	text-decoration:none;
 }
 nav ul{
+	display: none;
 	height:auto;
 	background: url('../images/navback.png') no-repeat;
-	background-size:500px;
+	background-size:cover;
 	opacity: 0.9;
 }
 
