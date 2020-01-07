@@ -153,7 +153,7 @@ p.mainbotb{
 	z-index: 999;
 } 
 #navinoba.scrolled{
-	background-color:#7ed6df !important;
+	background-color:rgb(126, 214, 223,0.9)!important;
 	transition: background-color 600ms linear;
   }
 
@@ -169,19 +169,19 @@ nav a:link, nav a:visited {
 nav ul{
 	display:none;
 	height:auto;
-	background:#7ed6df;
+	background: url('../images/navback.png') no-repeat;
+	background-size:500px;
 }
 nav ul li{
 	display:block;
-	width:100%;
-	text-align:center;
-	border-bottom:1px solid #fff;
+	width:90%;
+	text-align:right;
 }
 nav ul li a{
-	display:block;
-	font-size:1.5em;
+	font-size:1em;
 	text-decoration:none;
 	line-height:50px;
+	border-bottom:1px solid #fff;
 }
 
 nav #trigger{
@@ -195,9 +195,9 @@ nav #trigger{
 nav #trigger::after {
 	content: "";
 	background: url('../images/nav.png') no-repeat;
-	background-size:30px;
-	width: 30px;
-	height: 30px;
+	background-size:25px;
+	width: 25px;
+	height: 25px;
 	display: inline-block;
 	position: absolute;
 	right: 25px;
@@ -205,10 +205,10 @@ nav #trigger::after {
   }        
 nav #trigger p{
 	position: absolute;
-	font-size:2em;
-	line-height:60px;
+	right:65px;
+	font-size:1.5em;
+	line-height:55px;
 	color:#fff;
-	left: 20px;
 }
 /*コンテンツ */
 #content{

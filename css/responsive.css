@@ -64,12 +64,17 @@ nav ul li{
 	width:95px;
 	height:20px;
 	border-bottom:0;
-	margin:23px 0px;
+	margin:20px 0px;
+	text-align:center;
 }
 nav ul li a{
 	font-size:1em;
 	word-spacing: 0.3em;
 	line-height:20px;
+	border-bottom:0px;
+}
+nav ul li a:hover{
+	border-bottom:2px solid #fff;
 }
 nav #trigger {
 	  display: none;
