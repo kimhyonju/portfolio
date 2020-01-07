@@ -77,13 +77,13 @@ nav ul li a:hover{
 	border-bottom:2px solid #fff;
 }
 nav #trigger {
-	  display: none;
-	}  
+	display: none;
+}  
 #engname{
-    left: 15%;
-    top: 8%;
-	font-size: 2.5em;
-	font-weight: 300;
+    left:15%;
+    top:8%;
+	font-size:2.5em;
+	font-weight:300;
 }
 #engname:hover{
 	color:rgb(14, 44, 48);
