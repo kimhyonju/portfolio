@@ -101,8 +101,8 @@ h2 {
 	line-height:20px;
 }
 /*WEB コンテンツ*/
-#content{
-	padding-top: 0px;
+.webcontentback{
+	margin-top: 50px;
 }
 .web-box{
 	width:310px;
