@@ -137,11 +137,7 @@ p.mainbotb{
     -webkit-animation: bounce 3000ms infinite;
     animation: bounce 3000ms infinite;
 }
-#wrapper {
-	width:100%;
-	min-width:300px;
-	margin:0;
-}
+
 
 /* ナビゲーション */
 
@@ -223,16 +219,21 @@ nav #trigger p{
 	font-weight:300;
 }
 /*コンテンツ */
+#wrapper {
+	width:100%;
+	min-width:300px;
+	margin:0;
+}
 #content{
 	width:100%;
 	height:auto;
+	margin-top: 50px;
 }
 #content:nth-child(odd) {
     background-color: #f3f3f4;
 }
 .areacon{
 	width:100%;
-	padding-top:50px;
 }
 .fadeIn {
 	width:100%;
@@ -252,6 +253,15 @@ h2 {
 	text-align:center;
 }
 /*WEB コンテンツ*/
+
+.webcontentback{
+	background: url('../images/webbackup.png') no-repeat top;
+	background-size:100%;
+}
+.webcontentback-second{
+	background: url('../images/webbackdown.png') no-repeat bottom;
+	background-size:120%;
+}
 .web-box{
 	width:80%;
 	padding:10%;
