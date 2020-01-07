@@ -228,6 +228,7 @@ nav #trigger p{
 	width:100%;
 	height:auto;
 	margin-top: 50px;
+	padding-top: 50px;
 }
 #content:nth-child(odd) {
     background-color: #f3f3f4;
