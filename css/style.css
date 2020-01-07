@@ -167,11 +167,12 @@ nav a:link, nav a:visited {
 	text-decoration:none;
 }
 nav ul{
-	display:none;
 	height:auto;
 	background: url('../images/navback.png') no-repeat;
 	background-size:500px;
+	opacity: 0.9;
 }
+
 nav ul li{
 	display:block;
 	width:90%;
