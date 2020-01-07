@@ -251,14 +251,14 @@ h2 {
 	color:black;
 	text-align:center;
 }
+/*WEB コンテンツ*/
 .web-box{
-	display:inline-block;
 	width:80%;
 	padding:10%;
 	text-align:center;
 }
 #columns{
-	display: grid;
+	display:grid;
 	-webkit-column-count:1;
 	-moz-column-count:1;
 	column-count:1;
@@ -266,22 +266,39 @@ h2 {
 #web-first{
 	display:block;
 }
-#web-second{
-	display:block;
-}
-#web-third{
-	display:block;
-}
 #web-first img{
 	width:90%;
+}
+#web-second{
+	display:block;
 }
 #web-second img{
 	width:90%;
 }
+#web-third{
+	display:block;
+}
 #web-third img{
 	width:90%;
 }
-
+#columns-second{
+	display: grid;
+	-webkit-column-count:1;
+	-moz-column-count:1;
+	column-count:1;
+}
+#web-fourth{
+	display:block;
+}
+#web-fourth img{
+	width:90%;
+}
+#web-fifth{
+	display:block;
+}
+#web-fifth img{
+	width:90%;
+}
 /*フッター*/
 #footsec {
 	width:100%;

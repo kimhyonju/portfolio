@@ -100,8 +100,8 @@ h2 {
 .fadeIn > p{
 	line-height:20px;
 }
+/*WEB コンテンツ*/
 .web-box{
-	display:block;
 	width:310px;
 	padding:40px 5px;
 }
@@ -121,7 +121,21 @@ h2 {
 #web-third{
 	grid-row:1/3;
 }
-/*PC Footer*/
+#columns-second{
+	display: grid;
+	-webkit-column-count:2;
+	-moz-column-count:2;
+	column-count:2;
+    padding: 0 18%;
+}
+#web-fourth{
+	grid-row:1/2;
+}
+#web-fifth{
+	grid-row:1/2;
+}
+
+/*PC フッター*/
 .footheadp {
 	text-align:center;
 	font-size:2em;
