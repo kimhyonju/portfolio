@@ -212,6 +212,15 @@ nav #trigger p{
 	line-height:55px;
 	color:#fff;
 }
+#engname{
+	position: absolute;
+	left:20px;
+	font-family:'Great Vibes', cursive;
+	color:#fff;
+	line-height:60px;
+	font-size:2.8em;
+	letter-spacing:3px;
+}
 /*コンテンツ */
 #content{
 	width:100%;

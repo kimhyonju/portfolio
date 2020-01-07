@@ -79,6 +79,15 @@ nav ul li a:hover{
 nav #trigger {
 	  display: none;
 	}  
+#engname{
+	position: absolute;
+    left: 15%;
+    top: 8%;
+    font-size: 2.5em;
+}
+#engname:hover{
+	color:rgb(14, 44, 48);
+}
 /*PC content*/
 .areacon{
 	max-width:1000px;
