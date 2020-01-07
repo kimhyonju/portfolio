@@ -227,22 +227,23 @@
 				'min-height': adjHeight + 'px'
 			});
 		});
-		// Tip: avoid this ton of code using AniJS ;)
-		var element = $('.web-box');
+
+		// Tip: avoid this ton of code using AniJS ;)アニメーションが終わった後、フォーカス触れたらまた始まる
+		// var element = $('.web-box');
 		 
-		 // when mouseover execute the animation
-		element.mouseover(function(){
+		//  // when mouseover execute the animation
+		// element.mouseover(function(){
 		  
-		  // the animation starts
-		  element.toggleClass('fadeInDown animated');
+		//   // the animation starts
+		//   element.toggleClass('fadeInDown animated');
 		  
-		  // do something when animation ends
-		  element.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(e){
+		//   // do something when animation ends
+		//   element.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(e){
 		   
-		   // trick to execute the animation again　 アニメーションが終わった後、フォーカス触れたらまた始まる
-			//<--必要ならこれ削除　$(e.target).removeClass('fadeInDown animated');
-		  });  
-		});
+		//    // trick to execute the animation again　 
+		// 	$(e.target).removeClass('fadeInDown animated');
+		//   });  
+		// });
 		
 		/*WOW scroll 表示される*/
 		new WOW().init();
