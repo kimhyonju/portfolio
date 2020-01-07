@@ -50,9 +50,10 @@ a:link, a:visited{
 	background-size:cover;
 }
 #mainp{
-	width:100%;
+	width:96%;
 	position:absolute;
 	top:20%;
+	margin: 0px 2%;
 }
 #mainslide #mainp .maintopb{
 	transition:1s all; 
@@ -121,7 +122,9 @@ p.mainbotb{
 	-webkit-animation: bounce 3000ms infinite;
     animation: bounce 3000ms infinite;
 }
-
+.startbt:hover{
+	background-color: #22a6b3;
+}
 .slide-icon{
 	position:absolute;
 	left:50%;
