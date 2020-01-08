@@ -9,6 +9,7 @@
 		<link href="css/animate.min.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="css/jquery.bxslider.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+		<link rel="stylesheet" href="css/magnific-popup.css"/>
 		
 		<title>KIM Portfolio</title>
 		<link rel="icon" href="images/favicon.ico">
@@ -73,15 +74,18 @@
 				<div class="areacon">
 					<div id="columns">
 						<div id="web-first" class="web-box wow fadeInDown animated">
-							<img src="images/webportfolio_1.png">
+							<a class="img-popup" href="images/webportfolio_1.png" title="web-box1">
+							<img src="images/webportfolio_1.png"></a>
 							<p>banner</p>
 						</div>
 						<div id="web-second" class="web-box wow fadeInDown animated">
-							<img src="images/webportfolio_2.png">
+							<a class="img-popup" href="images/webportfolio_2.png" title="web-box2">
+							<img src="images/webportfolio_2.png"></a>
 							<p>banner</p>
 						</div>
 						<div id="web-third" class="web-box wow fadeInDown animated">
-							<img src="images/webportfolio_3.png">
+							<a class="img-popup" href="images/webportfolio_3.png" title="web-box3">
+							<img src="images/webportfolio_3.png"></a>
 							<p>banner</p>
 						</div>
 					</div>
@@ -91,11 +95,13 @@
 				<div class="areacon">
 					<div id="columns-second">
 						<div id="web-fourth" class="web-box wow fadeInDown animated">
-							<img src="images/webportfolio_4.png">
+							<a class="img-popup" href="images/webportfolio_4.png" title="web-box4">
+							<img src="images/webportfolio_4.png"></a>
 							<p>banner</p>
 						</div>
 						<div id="web-fifth" class="web-box wow fadeInDown animated">
-							<img src="images/webportfolio_5.png">
+							<a class="img-popup" href="images/webportfolio_5.png" title="web-box5">
+							<img src="images/webportfolio_5.png"></a>
 							<p>banner</p>
 						</div>
 					</div>
@@ -180,15 +186,17 @@
 		<script src="js/jquery.bxslider.js"></script>
 		<script src="js/wow.min.js"></script>
 		<script src="js/jquery.scrollTo.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		
 		<script>
-			/*Main Slide bxslider*/
+			//Main Slide bxslider　メインスライド
 		$(function() {
 			  $('#mainslide').bxSlider({
 				mode: 'fade',
 				speed: '1000',
 				pause: 4000,
 				auto: true,
-				pager: false, 
+				pager: false, 　//矢印ボタン
 				moveSlides: 1,
 				controls: false, 
 				adaptiveHeight:true,
@@ -204,7 +212,7 @@
 					$('#mainslide > div').not('.bx-clone').eq(newIndex).addClass('active')
 					}
           });
-		  	/*Main Slide full screen*/
+		  	//Main Slide full screen　スライドのフール画面
 			var windowWidth = $(window).width(),
 			windowHeight = $(window).height(),
 			adjHeight = windowHeight;
@@ -213,7 +221,7 @@
 				'height': adjHeight + 'px'
 				});
 			});
-			/*Main Slide responsiv resize*/
+			//Main Slide responsiv resize　スライドの画面調整
 		$(window).resize(function() {
 			var windowWidth = $(window).width(),
 				windowHeight = $(window).height(),
@@ -245,10 +253,10 @@
 		//   });  
 		// });
 		
-		/*WOW scroll 表示される*/
+		//WOW scroll 表示される　スクロールしたらアニメーが始まる
 		new WOW().init();
 		
-		/*Smooth Scroll*/
+		//Smooth Scroll　メニュークリックしたらスムーズに移動する
 		$(function(){
 			$('nav a').click(function(e){
 				$.scrollTo(this.hash || 0, 1500);
@@ -260,7 +268,7 @@
 			});
 		});
 
-		/*nav mobile Trigger*/
+		//nav mobile Triggerモバイルナビ
 		$(function () {
 			var trigger = $('#trigger');
 			var menu = $('nav ul');
@@ -283,13 +291,25 @@
 			});
 		});
 
-		/*nav Scroll color chage*/
+		//nav Scroll color chageスクロールしたらカラーが変わる
 		$(function () {
 			$(document).scroll(function () {
 				var $nav = $("#navinoba");
 				$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 			});
 		});
+
+		//click pop-up image拡大
+		$('.img-popup').magnificPopup({
+			type: 'image',
+			closeOnContentClick: true,
+			closeBtnInside: true,
+			fixedContentPos: true,
+			image: {verticalFit: true },
+			gallery: {enabled: true }, //左右イメージ回す
+			zoom: { enabled: true,   duration: 400 }
+			});
+
 		</script>
 			<!--Javascript End-->
 	</body>
