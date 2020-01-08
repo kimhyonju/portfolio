@@ -103,6 +103,10 @@ h2 {
 /*WEB コンテンツ*/
 .webcontentback{
 	margin-top: 50px;
+	background-size:100%;
+}
+.webcontentback-second{
+	background-size:120%;
 }
 .web-box{
 	width:310px;

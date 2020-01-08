@@ -253,13 +253,13 @@ h2 {
 /*WEB コンテンツ*/
 .webcontentback{
 	background: url('../images/webbackup.png') no-repeat top;
-	background-size:100%;
+	background-size:300%;
 	margin-top: 40px;
     padding-top: 50px;
 }
 .webcontentback-second{
 	background: url('../images/webbackdown.png') no-repeat bottom;
-	background-size:120%;
+	background-size:200%;
 }
 .web-box{
 	display: block;
