@@ -259,8 +259,9 @@
 		// });
 		
 		//WOW scroll 表示される　スクロールしたらアニメーが始まる
-		new WOW().init();
-		
+		$(function () {
+			new WOW().init();
+		});
 		//Smooth Scroll　メニュークリックしたらスムーズに移動する
 		$(function(){
 			$('nav a').click(function(e){
@@ -305,6 +306,7 @@
 		});
 
 		//click pop-up image拡大
+		$(function () {
 		$('.img-popup').magnificPopup({
 			type: 'image',
 			closeOnContentClick: true,
@@ -314,13 +316,15 @@
 			gallery: {enabled: true }, //左右イメージ回す
 			zoom: { enabled: true,   duration: 800 }
 			});
-		
+		});
 		 //content web-box触れたら拡大する、離れたら戻る
-		 $(".web-box .web-box-caption").mouseleave(
+		 $(function () {
+			$(".web-box .web-box-caption").mouseleave(
 			function () {
 			$(this).removeClass("hover");
 			}
-		);
+			);
+		 });
 
 		</script>
 			<!--Javascript End-->
