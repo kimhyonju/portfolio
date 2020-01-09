@@ -309,7 +309,13 @@
 			gallery: {enabled: true }, //左右イメージ回す
 			zoom: { enabled: true,   duration: 800 }
 			});
-
+		
+		 //content web-box触れたら拡大する、離れたら戻る
+		 $(".web-box").mouseleave(
+			function () {
+			$(this).removeClass("hover");
+			}
+		);
 		</script>
 			<!--Javascript End-->
 	</body>
