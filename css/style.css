@@ -272,7 +272,9 @@ h2 {
 	 width:90%;
 	 filter: drop-shadow(0px 5px 5px rgb(168, 168, 168));
 }
-
+.web-box-caption h3 {
+	color: #000;
+}
 #columns{
 	display:grid;
 	-webkit-column-count:1;
