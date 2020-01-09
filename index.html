@@ -73,18 +73,21 @@
 				</div>
 				<div class="areacon">
 					<div id="columns">
-						<div id="web-first" class="web-box wow fadeInDown animated">
+						<div id="web-first" class="web-box wow fadeInDown animated">			
 							<a class="img-popup" href="images/webportfolio_1.png" title="web-box1">
+							<div class="web-box-caption"><h3>CLICK!</h3></div>
 							<img src="images/webportfolio_1.png"></a>
 							<p>banner</p>
 						</div>
-						<div id="web-second" class="web-box wow fadeInDown animated">
+						<div id="web-second" class="web-box wow fadeInDown animated">						
 							<a class="img-popup" href="images/webportfolio_2.png" title="web-box2">
+							<div class="web-box-caption"><h3>CLICK!</h3></div>
 							<img src="images/webportfolio_2.png"></a>
 							<p>banner</p>
 						</div>
-						<div id="web-third" class="web-box wow fadeInDown animated">
+						<div id="web-third" class="web-box wow fadeInDown animated">						
 							<a class="img-popup" href="images/webportfolio_3.png" title="web-box3">
+							<div class="web-box-caption"><h3>CLICK!</h3></div>
 							<img src="images/webportfolio_3.png"></a>
 							<p>banner</p>
 						</div>
@@ -96,11 +99,13 @@
 					<div id="columns-second">
 						<div id="web-fourth" class="web-box wow fadeInDown animated">
 							<a class="img-popup" href="images/webportfolio_4.png" title="web-box4">
+							<div class="web-box-caption"><h3>CLICK!</h3></div>
 							<img src="images/webportfolio_4.png"></a>
 							<p>banner</p>
 						</div>
-						<div id="web-fifth" class="web-box wow fadeInDown animated">
+						<div id="web-fifth" class="web-box wow fadeInDown animated">						
 							<a class="img-popup" href="images/webportfolio_5.png" title="web-box5">
+							<div class="web-box-caption"><h3>CLICK!</h3></div>
 							<img src="images/webportfolio_5.png"></a>
 							<p>banner</p>
 						</div>
@@ -311,11 +316,12 @@
 			});
 		
 		 //content web-box触れたら拡大する、離れたら戻る
-		 $(".web-box").mouseleave(
+		 $(".web-box .web-box-caption").mouseleave(
 			function () {
 			$(this).removeClass("hover");
 			}
 		);
+
 		</script>
 			<!--Javascript End-->
 	</body>
