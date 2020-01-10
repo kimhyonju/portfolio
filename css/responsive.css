@@ -167,6 +167,14 @@ h2 {
 #web-fourth, #web-fifth {
 	grid-row:1/2;
 }
+/*LOGO,EVENT コンテンツ*/
+.logodesign{
+	display: block;
+	overflow: visible;
+	max-width:1000px;
+	height: auto;
+	padding:0;
+}
 
 /*PC フッター*/
 .footheadp {
