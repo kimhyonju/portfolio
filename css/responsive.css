@@ -172,10 +172,14 @@ h2 {
 	display: block;
 	overflow: visible;
 	max-width:1000px;
-	height: auto;
 	padding:0;
 }
-
+.logocontentback{
+	margin: 10% 30% 20% 80%;
+}
+.logoback-fourth{
+	margin: 40% 0% 20% 20%;
+}
 /*PC フッター*/
 .footheadp {
 	text-align:center;

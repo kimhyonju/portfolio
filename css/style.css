@@ -290,21 +290,50 @@ h2 {
 /*LOGO,EVENT コンテンツ*/
 .logodesign{
 	display: block;
+	position: relative;
 	overflow: hidden;
 	max-width:90%;
+	height: 800px;
 	padding:10%;
 }
-#logocontentback{
-	position: relative;
+.logocontentback{
+	position: absolute;
     width: 450px;
     height: 450px;
-    margin: 3% 20% 20% 60%;
+	margin: 10% 30% 20% 60%;
     border-radius: 40px;
-    opacity: 0.3;
-    background-color: #7ed6df;
-    transform: rotate(45deg);
+    opacity: 0.5;
+    border: 1px solid #7ed6df;
+	transform: rotate(45deg);
 }
-
+.logoback-second{
+	position: absolute;
+    width: 450px;
+    height: 450px;
+    margin: -10% 0% 0% -10%;
+    border-radius: 40px;
+    opacity: 0.5;
+	background-color: #7ed6df;
+}
+.logoback-third{
+	position: absolute;
+    width: 450px;
+    height: 450px;
+    margin: 20% 0% 0% 20%;
+    border-radius: 40px;
+    opacity: 0.5;
+	border: 1px solid #000;
+}
+.logoback-fourth{
+	position: absolute;
+	width: 300px;
+    height: 300px;
+	margin: 90% 0% 0% -35%;
+    border-radius: 40px;
+    opacity: 0.5;
+	background-color: #7ed6df;
+	transform: rotate(45deg);
+}
 /*フッター*/
 #footsec {
 	width:100%;
