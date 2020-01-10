@@ -330,9 +330,21 @@ h2 {
     height: 300px;
 	margin: 90% 0% 0% -35%;
     border-radius: 40px;
-    opacity: 0.5;
+    opacity: 0.4;
 	background-color: #7ed6df;
 	transform: rotate(45deg);
+}
+.logoback-fifth{
+	position: absolute;
+	width: 250px;
+    height: 250px;
+    margin: -10% 0% 0% 30%;
+	border-radius: 40px;
+	border: 1px solid #22a6b3;
+	opacity: 0.4;
+}
+#logocontent{
+	position:absolute;
 }
 /*フッター*/
 #footsec {
