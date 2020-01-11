@@ -106,7 +106,7 @@ h2 {
 	background-size:100%;
 }
 .webcontentback-second{
-	background-size:120%;
+	background-size:100%;
 }
 .web-box{
 	width:310px;
@@ -173,12 +173,37 @@ h2 {
 	overflow: visible;
 	max-width:1000px;
 	padding:0;
+	margin: 0 auto;
 }
 .logocontentback{
-	margin: 10% 30% 20% 90%;
+	margin: 10% 30% 20% 80%;
 }
 .logoback-fourth{
-	margin: 40% 0% 20% 20%;
+	margin: 40% 0% 20% -20%;
+}
+#logocontent{
+    width: 1000px;
+    height: 800px;
+}
+#logocontentimg-one{
+	left: 0%;
+}
+#logocontentimg-one img{
+	width:35%;
+}
+#logocontentimg-two{
+    top: 5%;
+    left: 35%;
+}
+#logocontentimg-two img{
+	width:50%;
+}
+#logocontentimg-three{
+	top: 50%;
+    left: 60%;
+}
+#logocontentimg-three img{
+	width:100%;
 }
 /*PC フッター*/
 .footheadp {

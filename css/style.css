@@ -294,7 +294,7 @@ h2 {
 	overflow: hidden;
 	max-width:90%;
 	height: 800px;
-	padding:10%;
+	padding:5%;
 }
 .logocontentback{
 	position: absolute;
@@ -345,25 +345,30 @@ h2 {
 }
 #logocontent{
 	position:absolute;
-	left: 20%;
-    width: 1000px;
+    width: 90%;
     height: 800px;
-    margin: 0 auto;
 }
 #logocontentimg-one{
 	position: absolute;
-	left: 10%;
-	width:300px;
+}
+#logocontentimg-one img{
+	width:50%;
 }
 #logocontentimg-two{
     position: absolute;
-    top: 5%;
-    left: 45%;
+	top: 10%;
+	left: 50%;
+}
+#logocontentimg-two img{
+	width:100%;
 }
 #logocontentimg-three{
     position: absolute;
-	top: 50%;
-    left: 60%;
+	top: 45%;
+	left: 5%;
+}
+#logocontentimg-three img{
+	width:95%;
 }
 /*フッター*/
 #footsec {
