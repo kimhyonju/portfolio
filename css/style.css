@@ -293,7 +293,7 @@ h2 {
 	position: relative;
 	overflow: hidden;
 	max-width:90%;
-	height: 1000px;
+	height: 800px;
 	padding:5%;
 }
 .logocontentback{
@@ -355,31 +355,31 @@ h2 {
 #logocontentimg-two{
 	width:45%;
     position:absolute;
-	top: 10%;
+	top: 8%;
 	left: 52%;
 }
 #logocontentimg-three{
     position: absolute;
-	top: 43%;
+	top: 38%;
 	left: 10%;
 	right:10%;
 }
 #logocontentimg-four{
 	width: 45%;
     position: absolute;
-	top: 30%;
+	top: 31%;
 	left: 5%;
 }
 #logocontentimg-five{
 	width:43%;
     position: absolute;
-	top: 78%;
+	top: 69%;
 	left: 3%;
 }
 #logocontentimg-six{
 	width:43%;
     position: absolute;
-	top: 78%;
+	top: 73%;
 	right:5%;
 }
 /*フッター*/
