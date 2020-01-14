@@ -350,37 +350,38 @@ h2 {
 }
 #logocontentimg-one{
 	position:absolute;
-	width:45%;
+	width:39%;
+	left: 10%;
 }
 #logocontentimg-two{
-	width:45%;
+	width:40%;
     position:absolute;
 	top: 8%;
-	left: 52%;
+	right: 10%;
 }
 #logocontentimg-three{
     position: absolute;
-	top: 38%;
+	top: 35%;
 	left: 10%;
 	right:10%;
 }
 #logocontentimg-four{
-	width: 45%;
+	width: 38%;
     position: absolute;
-	top: 31%;
-	left: 5%;
+	top: 28%;
+	left: 10%;
 }
 #logocontentimg-five{
-	width:43%;
+	width:38%;
     position: absolute;
-	top: 69%;
-	left: 3%;
+	top: 67%;
+	left: 10%;
 }
 #logocontentimg-six{
-	width:43%;
+	width:38%;
     position: absolute;
 	top: 73%;
-	right:5%;
+	right:10%;
 }
 /*フッター*/
 #footsec {
