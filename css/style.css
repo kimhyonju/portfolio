@@ -293,7 +293,7 @@ h2 {
 	position: relative;
 	overflow: hidden;
 	max-width:90%;
-	height: 800px;
+	height: 1000px;
 	padding:5%;
 }
 .logocontentback{
@@ -343,32 +343,44 @@ h2 {
 	border: 1px solid #22a6b3;
 	opacity: 0.4;
 }
-#logocontent{
-	position:absolute;
-    width: 90%;
-    height: 800px;
+.logodesign img{
+	width:100%;
+	border-radius:7%;
+	box-shadow:3px 3px 5px #e1e1e1;
 }
 #logocontentimg-one{
-	position: absolute;
-}
-#logocontentimg-one img{
-	width:50%;
+	position:absolute;
+	width:45%;
 }
 #logocontentimg-two{
-    position: absolute;
+	width:45%;
+    position:absolute;
 	top: 10%;
-	left: 50%;
-}
-#logocontentimg-two img{
-	width:100%;
+	left: 52%;
 }
 #logocontentimg-three{
     position: absolute;
-	top: 45%;
+	top: 43%;
+	left: 10%;
+	right:10%;
+}
+#logocontentimg-four{
+	width: 45%;
+    position: absolute;
+	top: 30%;
 	left: 5%;
 }
-#logocontentimg-three img{
-	width:95%;
+#logocontentimg-five{
+	width:43%;
+    position: absolute;
+	top: 78%;
+	left: 3%;
+}
+#logocontentimg-six{
+	width:43%;
+    position: absolute;
+	top: 78%;
+	right:5%;
 }
 /*フッター*/
 #footsec {
