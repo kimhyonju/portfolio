@@ -149,7 +149,7 @@
 				<p>ロゴ/イベント</p>
 			</div>
 			<div class="logodesign">
-				<div class="logocontentback">
+				<div class="logocontent-first">
 					<div class="logoback-second">
 						<div class="logoback-third">			
 						</div>
@@ -381,6 +381,16 @@
 					$(this).removeClass("hover");
 				}
 			);
+		});
+		//logoのコンテンツのbackground点灯(big)
+		setInterval(function(){
+			$(".logocontent-first").fadeOut(1500);
+			$(".logocontent-first").fadeIn(1500);
+		});
+		//logoのコンテンツのbackground点灯(small)
+		setInterval(function(){
+			$(".logoback-fourth").fadeOut(1000);
+			$(".logoback-fourth").fadeIn(1000);
 		});
 
 	</script>
