@@ -220,6 +220,11 @@ h2 {
 	left:98%;
 	right:0;
 }
+/*paralax-first container*/
+#parafirst-container{
+	width:100%;
+	height: 300px;
+}
 /*PC フッター*/
 .footheadp {
 	text-align:center;

@@ -177,10 +177,14 @@
 				<div id="logocontentimg-six" class="wow flipInX animated">
 					<img src="images/IMG_2622.jpg">
 				</div>				
-			</div>
-			
+			</div>			
 		</div>
 		<!--Logo contents End-->
+		<!--Parallax-scroll Start-->
+		<div id="parafirst-container" class="paracon bg-holder" data-width="4032" data-height="3024">
+			<p>Do it</p>
+		</div>
+		<!--Parallax-scroll End-->
 		<!--Print contents Start-->
 		<div id="content">
 			<div id="printdesign">
@@ -249,6 +253,7 @@
 	<script src="js/wow.min.js"></script>
 	<script src="js/jquery.scrollTo.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery.parallax-scroll.min.js"></script>
 
 	<script>
 		//Main Slide bxslider　メインスライド
@@ -393,6 +398,11 @@
 			$(".logoback-fourth").fadeIn(1000);
 		});
 
+		$(function () {
+			$('.bg-holder').parallaxScroll({
+			friction:0.3
+			});
+		});
 	</script>
 	<!--Javascript End-->
 </body>
