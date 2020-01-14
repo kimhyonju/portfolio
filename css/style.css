@@ -354,8 +354,8 @@ h2 {
 	left: 10%;
 }
 #logocontentimg-two{
+	position:absolute;
 	width:40%;
-    position:absolute;
 	top: 8%;
 	right: 10%;
 }
@@ -366,20 +366,20 @@ h2 {
 	right:10%;
 }
 #logocontentimg-four{
+	position: absolute;
 	width: 38%;
-    position: absolute;
 	top: 28%;
 	left: 10%;
 }
 #logocontentimg-five{
+	position: absolute;
 	width:38%;
-    position: absolute;
 	top: 67%;
 	left: 10%;
 }
 #logocontentimg-six{
+	position: absolute;
 	width:38%;
-    position: absolute;
 	top: 73%;
 	right:10%;
 }
