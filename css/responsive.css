@@ -221,9 +221,33 @@ h2 {
 	right:0;
 }
 /*paralax-first container*/
+.paraconpc{
+	display: block;
+	background: url('../images/IMG_1768.JPG') no-repeat top;
+}
+.paraconpc p{
+	display: block;
+    width: 100%;
+	position: absolute;
+	top: 40%;
+    font-size: 2em;
+    color: #fff;    
+	text-align: center;
+	text-shadow: 2px 2px 2px #000;
+}
 #parafirst-container{
 	width:100%;
 	height: 300px;
+	position: relative;
+	overflow: hidden;
+	margin: 20px 0px;
+}
+.bg-holder{
+	width:100%;
+	height:100%;
+}
+.paraconsm{
+	display: none;
 }
 /*PC フッター*/
 .footheadp {
@@ -242,7 +266,7 @@ h2 {
 	padding-top:10px;
 }
 #footsec {
-	height:300px;
+	height:1000px;
 }
 
 /*PC対応css End-------------------------------------------------------------------------------------------------*/
