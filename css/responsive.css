@@ -172,6 +172,7 @@ h2 {
 	display: block;
 	overflow: visible;
 	max-width:1000px;
+	height: 800px;
 	padding:0;
 	margin: 0 auto;
 }

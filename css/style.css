@@ -296,6 +296,11 @@ h2 {
 	height: 800px;
 	padding:5%;
 }
+@media all and (min-width:500px) and (max-width:768px) {
+	.logodesign{
+		height: 1800px;
+	}
+}
 .logocontent-first{
 	position: absolute;
     width: 450px;
