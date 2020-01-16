@@ -432,6 +432,14 @@ h2 {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+.swiper-pagination .swiper-pagination-bullet {
+    opacity: 1;
+    border: white solid 1px;
+    background-color: transparent;
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #9a9a9a;
+}
 /*フッター*/
 #footsec {
 	width:100%;
