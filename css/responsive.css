@@ -251,6 +251,12 @@ h2 {
 .gra-box-one{
 	height: 300px;
 }
+.gra-box-one p{
+	width:500px;
+    font-size: 10em;
+	letter-spacing: 20px;
+	top:310px;
+}
 .gra-box-two {
 	height: 300px;
 }
