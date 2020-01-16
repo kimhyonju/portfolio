@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/jquery.bxslider.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" />
+	<link rel="stylesheet" href="css/swiper.min.css" />
 
 	<title>KIM Portfolio</title>
 	<link rel="icon" href="images/favicon.ico">
@@ -193,12 +194,28 @@
 		<!--Print contents Start-->
 		<div id="content">
 			<div id="printdesign">
-				<div class="areacon">
+		
 					<div class="wow fadeIn animated">
 						<h2>Edit Print</h2>
 						<p>印刷デザイン</p>
 					</div>
-				</div>
+			  <!-- Swiper -->
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+						<div class="swiper-slide" ><img src="images/print_01.jpg"></div>
+						<div class="swiper-slide" ><img src="images/print_02.jpg"></div>
+						<div class="swiper-slide" ><img src="images/print_03.jpg"></div>
+						<div class="swiper-slide" ><img src="images/print_04.jpg"></div>
+						<div class="swiper-slide" ><img src="images/print_05.jpg"></div>
+						<div class="swiper-slide" ><img src="images/print_06.jpg"></div>
+						<div class="swiper-slide" ><img src="images/print_07.jpg"></div>
+						</div>
+						<!-- Add Pagination -->
+						<div class="swiper-pagination"></div>
+						<!-- 네비게이션 버튼 지정 -->
+						<div class="swiper-button-next"></div><!-- 다음 버튼 (오른쪽에 있는 버튼) -->
+						<div class="swiper-button-prev"></div><!-- 이전 버튼 -->
+					</div>
 			</div>
 		</div>
 		<!--Print contents End-->
@@ -259,6 +276,7 @@
 	<script src="js/jquery.scrollTo.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/jquery.parallax-scroll.min.js"></script>
+	<script src="js/swiper.min.js"></script>
 
 	<script>
 		//Main Slide bxslider　メインスライド
@@ -407,6 +425,56 @@
 			$('.bg-holder').parallaxScroll({
 			friction:0.1
 			});
+		});
+		//printのコンテンツのSlide(Swipe)
+		$(function () {
+			var swiper = new Swiper('.swiper-container', {
+			effect: 'coverflow',
+			loop : true, // 슬라이드 반복
+			grabCursor: true,
+			centeredSlides: true,
+			slidesPerView: 'auto',
+			autoplay : { // auto　play
+				delay : 0, // 遅れない
+			},
+			speed : 2000, // 슬라이드 속도 2초
+			coverflowEffect: {
+				rotate: 50, //スライドの回転角度、大きいほど回る
+				stretch: 0,　//スライドの間の長さ
+				depth: 100,　//深さ。大きいほど遠くある感じ
+				modifier: 1,　//効果の倍数:上の効果の数字にかけて処理する
+				slideShadows : true,　//スライドの影効果、3D効果
+			},
+			pagination: {
+				el: '.swiper-pagination',　//pagingの表示
+				clickable : true,　　//pagingをクリックしたら該当のスライドに移動する
+			},
+			navigation : {
+			nextEl : '.swiper-button-next', // Nextのclassの名
+			prevEl : '.swiper-button-prev', // Beforeのclassの名
+			},
+			//반응형 
+			breakpointsInverse: true, 
+			breakpoints: { 
+			// when window width is >= 320px 
+				320: { 
+					slidesPerView: 3, 
+					spaceBetween: 20 
+					},
+			// when window width is >= 780px 
+			 	780: { 
+					 slidesPerView: 4, 
+					 spaceBetween: 30 
+					 }, 
+			// when window width is >=1000px 
+			 	1000: { 
+					slidesPerView: 5, 
+					spaceBetween: 10 
+				 	} 
+				 },
+			});
+			
+
 		});
 	</script>
 	<!--Javascript End-->

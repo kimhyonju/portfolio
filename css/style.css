@@ -407,6 +407,23 @@ h2 {
 	text-align: center;
 	text-shadow: 2px 2px 2px #000;
 }
+/*Print コンテンツ*/
+#printdesign{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.swiper-container {
+	width:80%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+  }
+
+  .swiper-slide img{
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+  }
 /*フッター*/
 #footsec {
 	width:100%;
