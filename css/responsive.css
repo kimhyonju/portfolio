@@ -248,8 +248,15 @@ h2 {
 	display: none;
 }
 /*Print コンテンツ*/
-.swiper-container {
+#printdesign{
+	height: 800px;
+}
+.swiper-container-pa {
 	width:70%;
+	height:600px;
+  }
+.swiper-container {
+	width:90%;
 	height:600px;
   }
 /*PC フッター*/
