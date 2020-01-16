@@ -237,8 +237,7 @@ nav #trigger p{
 h2 {
 	display: block;
 	width:100%;
-	margin-top: 20px;
-	padding-top: 70px;
+	padding-top: 90px;
 	font-size:1.2em;
 	color:black;
 	text-align:center;
@@ -407,12 +406,26 @@ h2 {
 	text-align: center;
 	text-shadow: 2px 2px 2px #000;
 }
+/*Gradation Box*/
+.gra-box-one{
+	display: block;
+	width: 100%;
+	height: 350px;
+	background: linear-gradient(to bottom, white,#7ed6df);
+}
+.gra-box-two {
+	display: block;
+	width: 100%;
+	height: 350px;
+	background: linear-gradient(to top,white,#7ed6df);
+}
 /*Print コンテンツ*/
 #printdesign{
 	width: 100%;
 	height: 630px;
 	margin: 0;
 	padding: 0;
+	background-color: #7ed6df;
 }
 .swiper-container-pa {
 	width:85%;
