@@ -266,11 +266,12 @@ h2 {
 }
 .swiper-container-pa {
 	width:70%;
-	height:600px;
+	height:450px;
+	margin:100px auto;
   }
 .swiper-container {
 	width:90%;
-	height:600px;
+	height:520px;
   }
 /*PC フッター*/
 .footheadp {
