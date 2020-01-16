@@ -410,20 +410,28 @@ h2 {
 /*Print コンテンツ*/
 #printdesign{
 	width: 100%;
+	height: 800px;
 	margin: 0;
 	padding: 0;
 }
 .swiper-container {
 	width:80%;
+	height:600px;
 	margin-top: 50px;
 	margin-bottom: 50px;
   }
-
-  .swiper-slide img{
+.swiper-slide {
 	width: 100%;
 	background-position: center;
 	background-size: cover;
   }
+.swiper-slide img{
+	width: 100%;
+  }
+.swiper-pagination{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
 /*フッター*/
 #footsec {
 	width:100%;

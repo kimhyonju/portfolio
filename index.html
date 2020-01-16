@@ -212,9 +212,9 @@
 						</div>
 						<!-- Add Pagination -->
 						<div class="swiper-pagination"></div>
-						<!-- 네비게이션 버튼 지정 -->
-						<div class="swiper-button-next"></div><!-- 다음 버튼 (오른쪽에 있는 버튼) -->
-						<div class="swiper-button-prev"></div><!-- 이전 버튼 -->
+						<!-- ネビゲーション -->
+						<div class="swiper-button-next"></div><!-- Next みぎ-->
+						<div class="swiper-button-prev"></div><!-- Before ひだり -->
 					</div>
 			</div>
 		</div>
@@ -430,20 +430,20 @@
 		$(function () {
 			var swiper = new Swiper('.swiper-container', {
 			effect: 'coverflow',
-			loop : true, // 슬라이드 반복
+			loop : true, // スライド振り替えし
 			grabCursor: true,
 			centeredSlides: true,
 			slidesPerView: 'auto',
 			autoplay : { // auto　play
 				delay : 0, // 遅れない
 			},
-			speed : 2000, // 슬라이드 속도 2초
+			speed : 2000, // スライド速度2000
 			coverflowEffect: {
 				rotate: 50, //スライドの回転角度、大きいほど回る
 				stretch: 0,　//スライドの間の長さ
 				depth: 100,　//深さ。大きいほど遠くある感じ
 				modifier: 1,　//効果の倍数:上の効果の数字にかけて処理する
-				slideShadows : true,　//スライドの影効果、3D効果
+			//	slideShadows : true,　//スライドの影効果、3D効果
 			},
 			pagination: {
 				el: '.swiper-pagination',　//pagingの表示
@@ -453,22 +453,23 @@
 			nextEl : '.swiper-button-next', // Nextのclassの名
 			prevEl : '.swiper-button-prev', // Beforeのclassの名
 			},
-			//반응형 
+			
+					//レスポンシブ設定
 			breakpointsInverse: true, 
 			breakpoints: { 
 			// when window width is >= 320px 
 				320: { 
-					slidesPerView: 3, 
+					slidesPerView: 1, 
 					spaceBetween: 20 
 					},
 			// when window width is >= 780px 
 			 	780: { 
-					 slidesPerView: 4, 
+					 slidesPerView: 3, 
 					 spaceBetween: 30 
 					 }, 
 			// when window width is >=1000px 
 			 	1000: { 
-					slidesPerView: 5, 
+					slidesPerView: 4, 
 					spaceBetween: 10 
 				 	} 
 				 },

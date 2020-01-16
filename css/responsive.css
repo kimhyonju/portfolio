@@ -248,7 +248,10 @@ h2 {
 	display: none;
 }
 /*Print コンテンツ*/
-
+.swiper-container {
+	width:70%;
+	height:600px;
+  }
 /*PC フッター*/
 .footheadp {
 	text-align:center;
