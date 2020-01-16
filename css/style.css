@@ -234,12 +234,11 @@ nav #trigger p{
 .areacon{
 	width:100%;
 }
-.fadeIn {
-	width:100%;
-	height:50px;
-	margin-top: 20px;
-  }  
 h2 {
+	display: block;
+	width:100%;
+	margin-top: 20px;
+	padding-top: 70px;
 	font-size:1.2em;
 	color:black;
 	text-align:center;
@@ -254,8 +253,6 @@ h2 {
 .webcontentback{
 	background: url('../images/webbackup.png') no-repeat top;
 	background-size:300%;
-	margin-top: 40px;
-    padding-top: 50px;
 }
 .webcontentback-second{
 	background: url('../images/webbackdown.png') no-repeat bottom;
@@ -280,7 +277,6 @@ h2 {
 	-moz-column-count:1;
 	column-count:1;
 }
-
 #columns-second{
 	display: grid;
 	-webkit-column-count:1;
@@ -293,7 +289,7 @@ h2 {
 	position: relative;
 	overflow: hidden;
 	max-width:90%;
-	height: 800px;
+	height: 900px;
 	padding:5%;
 }
 @media all and (min-width:500px) and (max-width:768px) {
@@ -307,7 +303,7 @@ h2 {
     height: 450px;
 	margin: 10% 30% 20% 60%;
     border-radius: 40px;
-    opacity: 0.7;
+    opacity: 0.6;
     border: 1px solid #7ed6df;
 	transform: rotate(45deg);
 }
@@ -317,7 +313,7 @@ h2 {
     height: 450px;
     margin: -10% 0% 0% -10%;
     border-radius: 40px;
-    opacity: 0.7;
+    opacity: 0.6;
 	background-color: #7ed6df;
 }
 .logoback-third{
@@ -326,7 +322,7 @@ h2 {
     height: 450px;
     margin: 20% 0% 0% 20%;
     border-radius: 40px;
-    opacity: 0.7;
+    opacity: 0.6;
 	border: 1px solid #000;
 }
 .logoback-fourth{
