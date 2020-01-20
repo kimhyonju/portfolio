@@ -433,6 +433,19 @@ h2 {
 	height: 100px;
 	background: linear-gradient(to top,white,#7ed6df);
 }
+.gra-box-three {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(to bottom, white,#9dbbbe);
+}
+.gra-box-four{
+	display: block;
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(to top,white,#9dbbbe);
+}
 /*Print コンテンツ*/
 #printdesign{
 	width: 100%;
@@ -496,6 +509,20 @@ h2 {
 #sketchimg-two{
 	display: inline-block;
 	width: 200px;
+}
+/*Shootingコンテンツ*/
+#shooting{
+	width: 100%;
+	margin: 0;
+	padding-bottom: 40px;
+	background-color: #9dbbbe;
+}
+#shootingback{
+	max-width: 90%;
+	height: 900px;
+	margin: 10px auto 20px;
+	background-color: #d8e4e5;
+	box-shadow: 10px 10px 15px #3c585a;
 }
 /*フッター*/
 #footsec {

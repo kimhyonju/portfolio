@@ -260,6 +260,12 @@ h2 {
 .gra-box-two {
 	height: 300px;
 }
+.gra-box-three {
+	height: 300px;
+}
+.gra-box-four {
+	height: 300px;
+}
 /*Print コンテンツ*/
 #printdesign{
 	height: 800px;
@@ -280,7 +286,14 @@ h2 {
 	margin: 20px auto 60px;
 	box-shadow: 20px 30px 25px darkgrey;
 }
-
+/*Shootingコンテンツ*/
+#shootingback{
+	max-width: 1000px;
+	height: 700px;
+	margin: 20px auto 60px;
+	background-color: #d8e4e5;
+	box-shadow: 20px 30px 25px #3c585a;
+}
 /*PC フッター*/
 .footheadp {
 	text-align:center;
