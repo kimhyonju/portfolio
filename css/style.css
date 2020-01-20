@@ -485,7 +485,18 @@ h2 {
 	background-size: cover;
 	box-shadow: 10px 10px 15px darkgrey;
 }
-
+#sketchback img{
+	width: 100%;
+	box-shadow: 3px 3px 10px #000;
+}
+#sketchimg-one{
+	display: inline-block;
+	width: 200px;
+}
+#sketchimg-two{
+	display: inline-block;
+	width: 200px;
+}
 /*フッター*/
 #footsec {
 	width:100%;
