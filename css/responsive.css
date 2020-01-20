@@ -228,10 +228,12 @@ h2 {
     width: 100%;
 	position: absolute;
 	top: 40%;
-    font-size: 2em;
+	font-size: 3em;
+	letter-spacing: 5px;
     color: #fff;    
 	text-align: center;
 	text-shadow: 2px 2px 2px #000;
+	font-family: 'Playfair Display SC', serif;
 }
 #parafirst-container{
 	width:100%;
