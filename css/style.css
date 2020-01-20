@@ -471,6 +471,21 @@ h2 {
 .swiper-pagination .swiper-pagination-bullet-active {
     background-color: #9a9a9a;
 }
+/*Sketch コンテンツ*/
+#sketch{
+	width: 100%;
+	margin: 0;
+}
+#sketchback{
+	max-width: 90%;
+	height: 900px;
+	position: relative;
+	margin: 10px auto 20px;
+	background: url(../images/woodback.jpg) no-repeat top;
+	background-size: cover;
+	box-shadow: 10px 10px 15px darkgrey;
+}
+
 /*フッター*/
 #footsec {
 	width:100%;

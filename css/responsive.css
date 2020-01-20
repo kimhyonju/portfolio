@@ -273,6 +273,14 @@ h2 {
 	width:90%;
 	height:520px;
   }
+  /*Sketch コンテンツ*/
+#sketchback{
+	max-width: 1000px;
+	height: 700px;
+	margin: 20px auto 60px;
+	box-shadow: 20px 30px 25px darkgrey;
+}
+
 /*PC フッター*/
 .footheadp {
 	text-align:center;
