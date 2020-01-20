@@ -221,7 +221,7 @@ h2 {
 /*paralax-first container*/
 .paraconpc{
 	display: block;
-	background: url('../images/IMG_1768.JPG') no-repeat top;
+	background: url('../images/IMG_1768.JPG') no-repeat bottom;
 }
 .paraconpc p{
 	display: block;
