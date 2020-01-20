@@ -524,6 +524,35 @@ h2 {
 	background-color: #d8e4e5;
 	box-shadow: 10px 10px 15px #3c585a;
 }
+/*Profileコンテンツ*/
+#profile{
+	width: 100%;
+	margin: 0;
+}
+/*paralax-second container*/
+.paraconpc-two{
+	display: none;
+}
+.paraconsm-two{
+	background: url('../images/IMG_1428.JPG') no-repeat center;
+	background-size: 100%;
+	width:100%;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+	margin: 20px 0px;
+}
+.paraconsm-two p{
+	display: block;
+    width: 100%;
+	position: absolute;
+	top: 40%;
+    font-size: 2em;
+    color: #fff;    
+	text-align: center;
+	text-shadow: 2px 2px 2px #000;
+}
+
 /*フッター*/
 #footsec {
 	width:100%;

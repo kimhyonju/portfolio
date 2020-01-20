@@ -266,12 +266,18 @@
 		<!--profile contents Start-->
 		<div id="content">
 			<div id="profile">
-				<div class="areacon">
 					<div class="wow fadeIn animated">
 						<h2>Profile</h2>
 						<p>プロフィール</p>
 					</div>
-				</div>
+			<!--Parallax-scroll Start-->
+				<!--PC version-->
+					<div id="parasecond-container" class="paraconpc-two bg-holder" data-width="1536" data-height="1024">
+						<p>Do it</p>
+					</div>
+						<!--Mobile version-->
+					<div class="paraconsm-two"></div>
+					<!--Parallax-scroll End-->
 			</div>
 		</div>
 		<!--Profile contents End-->
@@ -475,7 +481,7 @@
 			prevEl : '.swiper-button-prev', // Beforeのclassの名
 			},
 			
-					//レスポンシブ設定
+			//レスポンシブ設定
 			breakpointsInverse: true, 
 			breakpoints: { 
 			// when window width is >= 320px 
