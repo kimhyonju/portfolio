@@ -456,6 +456,7 @@ h2 {
 	padding: 0;
 	background-color: #7ed6df;
 }
+
 .swiper-container-pa {
 	width:85%;
 	height:350px;
@@ -485,6 +486,21 @@ h2 {
 }
 .swiper-pagination .swiper-pagination-bullet-active {
     background-color: #9a9a9a;
+}
+@media all and (min-width:500px) and (max-width:768px) {
+	#printdesign{
+		height: 1000px;
+	}
+	.swiper-container {
+		width:70%;
+		height:750px;
+	  }
+	.swiper-container-pa {
+	width:85%;
+	height:650px;
+	position: relative;
+	margin: 40px auto;
+	}
 }
 /*Sketch コンテンツ*/
 #sketch{
