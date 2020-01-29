@@ -228,23 +228,24 @@
 		<!--gradation-box End-->
 		<!--Sketch contents Start-->
 		<div id="content">
-			<div id="sketch">
-				<div class="areacon">
+			<div id="sketch">	
 					<div class="wow fadeIn animated">
 						<h2>Design Sketch</h2>
 						<p>スケッチ</p>
 					</div>
-					<div id="sketchback">
-						<div id="sketchimg-one"><img src="images/IMG_2900-1.jpg"></div>
-						<div id="sketchimg-two"><img src="images/IMG_2901-1.jpg"></div>
-						<div id="sketchimg-two"><img src="images/stylesketch_1.jpg"></div>
-						<div id="sketchimg-two"><img src="images/stylesketch_2.jpg"></div>
-						<div id="sketchimg-two"><img src="images/stylesketch_3.jpg"></div>
-						<div id="sketchimg-two"><img src="images/bagsketch_1.jpg"></div>
-						<div id="sketchimg-two"><img src="images/bagsketch_2.jpg"></div>
-						<div id="sketchimg-two"><img src="images/bagsketch_3.jpg"></div>
-					</div>
-				</div>
+					<div id="sketch-grid">
+						<div id="sketchback">
+							<div id="sketch-box">
+								<div id="sketchimg-one"><img src="images/stylesketch_3.jpg"></div>
+								<div id="sketchimg-two"><img src="images/stylesketch_2.jpg"></div>
+								<div id="sketchimg-three"><img src="images/stylesketch_1.jpg"></div>
+								<div id="sketchimg-four"><img src="images/IMG_2900-1.jpg"></div>
+								<div id="sketchimg-five"><img src="images/bagsketch_1.jpg"></div>
+								<div id="sketchimg-six"><img src="images/bagsketch_2.jpg"></div>
+								<div id="sketchimg-seven"><img src="images/bagsketch_3.jpg"></div>
+							</div>
+						</div>	
+					</div>		
 			</div>
 		</div>
 		<!--Sketch contents End-->
@@ -305,6 +306,7 @@
 	<!--footer End-->
 	<!--Javascript Start-->
 	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/jquery.vgrid.min.js"></script>
 	<script src="js/jquery.bxslider.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/jquery.scrollTo.min.js"></script>
@@ -509,8 +511,15 @@
 				 	} 
 				 },
 			});
-			
-
+		});
+		
+		//sketchのコンテンツのVgrid
+		$(function () {
+			$("#sketch-box").vgrid({
+			time:400,
+			delay:30,
+			wait:500,
+		});
 		});
 	</script>
 	<!--Javascript End-->

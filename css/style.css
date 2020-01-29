@@ -507,27 +507,52 @@ h2 {
 	width: 100%;
 	margin: 0;
 }
-#sketchback{
-	max-width: 90%;
-	height: 900px;
+#sketch-grid{
+	width: 90%;
 	position: relative;
 	margin: 10px auto 20px;
 	background: url(../images/woodback.jpg) no-repeat top;
 	background-size: cover;
 	box-shadow: 10px 10px 15px darkgrey;
 }
+#sketchback{
+	width: 90%;
+	margin: 10px auto 20px;
+}
+#sketch-box{
+	margin: 0px auto;
+    padding: 20px 0;
+}
+#sketch-box div{
+	display: inline-block;
+	margin: 3% 2% 0% 2%;
+}
 #sketchback img{
 	width: 100%;
 	box-shadow: 3px 3px 10px #000;
 }
 #sketchimg-one{
-	display: inline-block;
-	width: 200px;
+	width: 35%;
 }
-#sketchimg-two{
-	display: inline-block;
-	width: 200px;
+#sketchimg-two {
+	width: 16%;
 }
+#sketchimg-three{
+	width: 16%;
+}
+#sketchimg-four{
+	width: 16%;
+}
+#sketchimg-five{
+	width: 16%;
+}
+#sketchimg-six{
+	width: 16%;
+}
+#sketchimg-seven{
+	width: 16%;
+}
+
 /*Shootingコンテンツ*/
 #shooting{
 	width: 100%;

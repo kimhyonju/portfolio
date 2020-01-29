@@ -281,11 +281,17 @@ h2 {
 	height:520px;
   }
   /*Sketch コンテンツ*/
-#sketchback{
-	max-width: 1000px;
-	height: 700px;
+#sketch-grid{
+	width: 100%;
 	margin: 20px auto 60px;
 	box-shadow: 20px 30px 25px darkgrey;
+}
+#sketchback{
+	width: 1200px;
+}
+#sketch-box{
+	margin: 0px auto;
+    padding: 20px 0;
 }
 /*Shootingコンテンツ*/
 #shootingback{
