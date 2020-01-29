@@ -289,10 +289,28 @@ h2 {
 #sketchback{
 	width: 1200px;
 }
-#sketch-box{
-	margin: 0px auto;
-    padding: 20px 0;
+#sketchimg-one{
+	width: 35%;
 }
+#sketchimg-two {
+	width: 16%;
+}
+#sketchimg-three{
+	width: 16%;
+}
+#sketchimg-four{
+	width: 16%;
+}
+#sketchimg-five{
+	width: 16%;
+}
+#sketchimg-six{
+	width: 16%;
+}
+#sketchimg-seven{
+	width: 16%;
+}
+
 /*Shootingコンテンツ*/
 #shootingback{
 	max-width: 1000px;
