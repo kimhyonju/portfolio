@@ -292,6 +292,16 @@ h2 {
 #sketchimg-one{
 	width: 35%;
 }
+.thumb-pin{
+	display: block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top:20px;
+	left:10px;
+	background: url(../images/thumbtack.png);
+	background-size: cover;
+}
 #sketchimg-two {
 	width: 16%;
 }

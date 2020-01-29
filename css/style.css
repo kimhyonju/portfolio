@@ -534,6 +534,9 @@ h2 {
 #sketchimg-one{
 	width: 46%;
 }
+.thumb-pin{
+	display: none;
+}
 #sketchimg-two {
 	width: 46%;
 }
