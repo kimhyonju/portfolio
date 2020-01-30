@@ -594,6 +594,13 @@ h2 {
 	background-color: #d8e4e5;
 	box-shadow: 10px 10px 15px #3c585a;
 }
+#shootingback img{
+	width: 100%;
+}
+#shootingimg-one {
+	display: inline-block;
+	width: 200px;
+}
 /*Profileコンテンツ*/
 #profile{
 	width: 100%;
