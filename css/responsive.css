@@ -362,22 +362,7 @@ h2 {
 }
 
 /*PC フッター*/
-.footheadp {
-	text-align:center;
-	font-size:2em;
-	color:#fff;
-	font-weight:bold;
-	padding-top:50px;
-	}
-.footcontac {
-	text-align:center;
-	font-size:1em;
-	color:#fff;
-	font-weight:bold;
-	padding-top:10px;
-}
-#footsec {
-	height:1000px;
-}
+
+
 
 /*PC対応css End-------------------------------------------------------------------------------------------------*/
