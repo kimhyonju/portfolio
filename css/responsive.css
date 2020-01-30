@@ -362,7 +362,23 @@ h2 {
 }
 
 /*PC フッター*/
-
-
-
+#footsec {
+	height:800px;
+}
+.footheadp {
+	padding-top:14%;
+}
+footer section{
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	top:150px;
+	left:50%;
+	margin-left: -250px;
+}
+#namecardimg {
+	width:60%;
+	position: relative;
+    left: 40%;
+}
 /*PC対応css End-------------------------------------------------------------------------------------------------*/
