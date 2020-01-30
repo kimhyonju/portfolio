@@ -671,33 +671,27 @@ footer section{
 .footcontac {
 	display: inline-block;
 	width: 50%;
-	padding: 13% 3%;
+	padding: 20% 1%;
     position: absolute;
     top: 10%;
-    left: 5%;
+	left: 1%;
+	text-align:left;
+	color:#fff;
+	letter-spacing: -0.5px;
 }
 .footcontac .name {
-	text-align:left;
 	font-size:1.5em;
-	color:#fff;
 	font-weight:800;
-	letter-spacing: 1.5px;
     padding: 2px 0px;
 }
 .footcontac .name-ja {
-	text-align:left;
 	font-size:0.8em;
-	color:#fff;
-	letter-spacing: 1.5px;
 	margin-top: -4%;
 	margin-bottom: 10%;
 }
 .footcontac .mail{
-	text-align:left;
 	font-size:0.8em;
-	color:#fff;
 	font-weight:bold;
-	letter-spacing: 1.5px;
 }
 .fa-smile{
 	font-size: 1.5em;

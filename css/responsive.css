@@ -381,4 +381,9 @@ footer section{
 	position: relative;
     left: 40%;
 }
+.footcontac {
+	padding: 13% 3%;
+	letter-spacing: 1.5px;
+	left: 5%;
+}
 /*PC対応css End-------------------------------------------------------------------------------------------------*/
