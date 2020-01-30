@@ -589,7 +589,6 @@ h2 {
 }
 #shootingback{
 	max-width: 90%;
-	height: 900px;
 	margin: 10px auto 20px;
 	background-color: #d8e4e5;
 	box-shadow: 10px 10px 15px #3c585a;
@@ -597,9 +596,9 @@ h2 {
 #shootingback img{
 	width: 100%;
 }
-#shootingimg-one {
+#shootingimg {
 	display: inline-block;
-	width: 200px;
+	width: 45%;
 }
 /*Profileコンテンツ*/
 #profile{
