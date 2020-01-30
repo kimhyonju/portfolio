@@ -163,6 +163,11 @@ h2 {
 #web-fourth, #web-fifth {
 	grid-row:1/2;
 }
+.web-box p{
+	padding-top: 7px;
+	font-size: 1em;
+	font-weight:600;
+}
 /*LOGO,EVENT コンテンツ*/
 .logodesign{
 	display: block;
@@ -366,7 +371,7 @@ h2 {
 	height:800px;
 }
 .footheadp {
-	padding-top:14%;
+	padding-top:13%;
 }
 footer section{
 	width: 500px;

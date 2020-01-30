@@ -270,6 +270,12 @@ h2 {
 .web-box-caption h3 {
 	color: #000;
 }
+.web-box p{
+	font-family:'M PLUS Rounded 1c';
+	color:#666;
+	padding-top: 10px;
+    font-size: 1.5em;
+}
 #columns{
 	display:grid;
 	-webkit-column-count:1;
