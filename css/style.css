@@ -593,12 +593,90 @@ h2 {
 	background-color: #d8e4e5;
 	box-shadow: 10px 10px 15px #3c585a;
 }
-#shootingback img{
-	width: 100%;
+#shooting-box{
+	position: relative;
+	display: block;
+	width: 90%;
+	padding: 6% 5%;
 }
 #shootingimg {
 	display: inline-block;
 	width: 45%;
+	box-shadow: 1px 5px 20px #3c585a;
+}
+#shooting-box-one{
+	display: inline-block;
+	width: 100%;
+	height: 266px;
+	background: url(../images/IMG_1486.JPG) no-repeat;
+	background-size: cover;
+}
+#shooting-box-two{
+	display: inline-block;
+	width: 100%;
+	height: 266px;
+	background: url(../images/IMG_1419.JPG) no-repeat;
+	background-size: cover;
+}
+#shooting-box-three{
+	display: inline-block;
+	width: 100%;
+	height: 266px;
+	background: url(../images/IMG_1420.JPG) no-repeat top;
+	background-size: contain;
+	background-color: #fff;
+}
+#shooting-box-four{
+	display: inline-block;
+	width: 100%;
+	height: 266px;
+	background: url(../images/IMG_0336.JPG) no-repeat;
+	background-size: cover;
+}
+#shooting-box-five {
+	display: inline-block;
+	width: 100%;
+	height: 266px;
+	background: url(../images/IMG_1532.JPG) no-repeat bottom;
+	background-size: contain;
+	background-color: #f8f0e2;
+}
+#shooting-box-six {
+	display: inline-block;
+	width: 100%;
+	height: 266px;
+	background: url(../images/IMG_1488.JPG) no-repeat bottom;
+	background-size: contain;
+	background-color: #f3f3f4;
+}
+#shooting-box-seven {
+	display: inline-block;
+	width: 100%;
+	height: 266px;
+	background: url(../images/IMG_1493.JPG) no-repeat;
+	background-size: cover;
+}
+#shooting-box-eight {
+	display: inline-block;
+	width: 100%;
+	height: 266px;
+	background: url(../images/IMG_1490.JPG) no-repeat;
+	background-size: cover;
+}
+#shooting-box-nine {
+	display: inline-block;
+	width: 100%;
+	height: 266px;
+	background: url(../images/IMG_3139.JPG) no-repeat top;
+	background-size: contain;
+	background-color: #3c585a;
+}
+#shooting-box-ten {
+	display: inline-block;
+	width: 100%;
+	height: 266px;
+	background: url(../images/IMG_4037.jpg) no-repeat;
+	background-size: cover;
 }
 /*Profileコンテンツ*/
 #profile{

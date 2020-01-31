@@ -335,7 +335,10 @@ h2 {
 	box-shadow: 20px 30px 25px #3c585a;
 }
 #shootingimg {
-	width: 200px;
+	width: 18.5%;
+	height: 266px;
+
+	margin: 0.5%;
 }
 /*Profileコンテンツ*/
 
