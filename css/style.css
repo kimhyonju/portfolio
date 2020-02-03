@@ -351,10 +351,14 @@ h2 {
 }
 .logocon {
 	width: 100%;
-	color:#000;
+	height: -webkit-fill-available;
+	color:#fff;
 	text-align: center;
 	font-size: 16px;
 	position: relative;
+	overflow: hidden;
+	border-radius:7%;
+	box-shadow:3px 1px 15px darkgrey;
 }
 .logocon *{
 	-webkit-box-sizing: border-box;
@@ -365,8 +369,7 @@ h2 {
 }
 .logodesign img{
 	width:100%;
-	border-radius:7%;
-	box-shadow:3px 1px 15px darkgrey;
+
 }
 .logocon:after,
 .logocon:before,
@@ -409,12 +412,10 @@ h2 {
   }
 .logocon div {
 	position: absolute;
-	top: 0;
-	bottom: 0;
+	top: 20%;
 	left: 0;
 	right: 0;
 	z-index: 2;
-	padding: 30px;
   }
 .logocon h3,
 .logocon p{
