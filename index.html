@@ -161,22 +161,58 @@
 					</div>
 				</div>			
 				<div id="logocontentimg-one" class="wow flipInX animated">
-					<img class="lazyload" data-src="images/ST-logo.jpg">
+					<div class="logocon">
+						<img class="lazyload" data-src="images/ST-logo.jpg">
+						<div>
+							<h3>title</h3>
+							<p>内容をここに</p>
+						</div>
+					</div>
 				</div>
 				<div id="logocontentimg-two" class="wow flipInX animated">
-					<img class="lazyload" data-src="images/IMG_7103.JPG">
+					<div class="logocon">
+						<img class="lazyload" data-src="images/IMG_7103.JPG">
+						<div>
+							<h3>title</h3>
+							<p>内容をここに</p>
+						</div>
+					</div>				
 				</div>
 				<div id="logocontentimg-three" class="wow flipInX animated">
-					<img class="lazyload" data-src="images/IMG_6397.JPG">
+					<div class="logocon">
+						<img class="lazyload" data-src="images/IMG_6397.JPG">
+						<div>
+							<h3>title</h3>
+							<p>内容をここに</p>
+						</div>
+					</div>
 				</div>
 				<div id="logocontentimg-four" class="wow flipInX animated">
-					<img class="lazyload" data-src="images/ST-logo-bar.jpg">
+					<div class="logocon">
+						<img class="lazyload" data-src="images/ST-logo-bar.jpg">
+						<div>
+							<h3>title</h3>
+							<p>内容をここに</p>
+						</div>
+				</div>
 				</div>
 				<div id="logocontentimg-five" class="wow flipInX animated">
-					<img class="lazyload" data-src="images/IMG_2623.jpg">
+					<div class="logocon">
+						<img class="lazyload" data-src="images/IMG_2623.jpg">
+						<div>
+							<h3>title</h3>
+							<p>内容をここに</p>
+						</div>
+					</div>
 				</div>
 				<div id="logocontentimg-six" class="wow flipInX animated">
-					<img class="lazyload" data-src="images/IMG_2622.jpg">
+					<div class="logocon">
+						<img class="lazyload" data-src="images/IMG_2622.jpg">
+						<div>
+							<h3>title</h3>
+							<p>内容をここに</p>
+						</div>
+					</div>
 				</div>							
 			</div>			
 		</div>
@@ -494,6 +530,12 @@
 			$(".logoback-fourth").fadeOut(1000);
 			$(".logoback-fourth").fadeIn(1000);
 		});
+		//logoのコンテンツのhover効果
+		$(".logocon").mouseleave(
+			function () {
+				$(this).removeClass("hover");
+			}
+		);
 		/*paralax-first container*/
 		$(function () {
 			$('.bg-holder').parallaxScroll({
