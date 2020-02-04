@@ -414,7 +414,7 @@ h2 {
 	left: 0;
 	right: 0;
 	z-index: 2;
-	padding: 5%;
+	padding: 3%;
   }
 .logocon h3,
 .logocon p{
@@ -423,7 +423,7 @@ h2 {
 	opacity: 0;
   }
 .logocon h3 {
-	margin: 25% auto 2%;
+	margin: 20% auto 2%;
 	font-weight: 900;
 	text-transform: uppercase;
   }
