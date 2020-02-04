@@ -357,7 +357,19 @@ h2 {
 #shooting-box-ten {
 	display: inline-block;
 }
-
+#sh-coment01{
+	display: block;
+    width: 105px;
+    height: 20px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    margin-left: -52px;
+}
+#sh-coment01 p {
+	color:#000;
+	font-size: 1em;
+}
 /*Profileコンテンツ*/
 
 /*paralax-second container*/
