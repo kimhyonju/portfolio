@@ -168,7 +168,9 @@
 							<p>ファッション系<br>店舗のシンボル<br>ロゴデザイン</p>
 						</div>
 					</div>
+					<div class="logo-coment"><p>イメージタッチ</p></div>
 				</div>
+			
 				<div id="logocontentimg-two" class="wow flipInX animated">
 					<div class="logocon">
 						<img class="lazyload" data-src="images/IMG_7103.JPG">
@@ -206,6 +208,7 @@
 					</div>
 				</div>
 				<div id="logocontentimg-six" class="wow flipInX animated">
+					<div class="logo-coment"><p>イメージタッチ</p></div>
 					<div class="logocon">
 						<img class="lazyload" data-src="images/IMG_2622.jpg">
 						<div>
@@ -534,6 +537,11 @@
 		setInterval(function(){
 			$(".logoback-fourth").fadeOut(1000);
 			$(".logoback-fourth").fadeIn(1000);
+		});
+		//logoのコンテンツの[イメージタッチ]点灯
+		setInterval(function(){
+			$(".logo-coment").fadeOut(1000);
+			$(".logo-coment").fadeIn(1000);
 		});
 		//logoのコンテンツのhover効果
 		$(".logocon").mouseleave(

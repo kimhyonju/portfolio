@@ -294,7 +294,7 @@ h2 {
 	position: relative;
 	overflow: hidden;
 	max-width:90%;
-	height: 900px;
+	height: 950px;
 	padding:5%;
 }
 @media all and (min-width:500px) and (max-width:768px) {
@@ -463,6 +463,21 @@ h2 {
 	width:39%;
 	height: auto;
 	left: 10%;
+}
+.logo-coment {
+    display: block;
+    width: 70%;
+    padding: 2%;
+    margin: 5% auto;
+    border-radius: 50px;
+    background-color: darkgrey;
+    opacity: 0.7;
+}
+.logo-coment p{
+	font-size: 0.5em;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
 }
 #logocontentimg-two{
 	position:absolute;
