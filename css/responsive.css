@@ -166,7 +166,7 @@ h2 {
 .web-box p{
 	padding-top: 7px;
 	font-size: 1em;
-	font-weight:600;
+	font-weight:300;
 }
 /*LOGO,EVENT コンテンツ*/
 .logodesign{
@@ -374,10 +374,10 @@ h2 {
 
 /*PC フッター*/
 #footsec {
-	height:800px;
+	height:auto;
 }
 .footheadp {
-	padding-top:13%;
+	padding-top:15%;
 }
 footer section{
 	width: 500px;
@@ -396,5 +396,22 @@ footer section{
 	padding: 13% 3%;
 	letter-spacing: 1.5px;
 	left: 5%;
+}
+
+#footdown-box{
+	max-width:1000px;
+}
+#footdown .copyname {
+	display: inline-block;
+    width: 49%;
+	margin: 1% 0;
+	text-align: left;
+	padding-top: 0;
+}
+#footdown .copyname-de {
+	display: inline-block;
+    width: 49%;
+	margin: 1% 0;
+	text-align: right;
 }
 /*PC対応css End-------------------------------------------------------------------------------------------------*/
