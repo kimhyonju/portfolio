@@ -368,6 +368,7 @@ h2 {
 }
 .logodesign img{
 	width:100%;
+	vertical-align: bottom;
 }
 .logocon:after,
 .logocon:before,
@@ -460,16 +461,20 @@ h2 {
 #logocontentimg-one{
 	position:absolute;
 	width:39%;
+	height: auto;
 	left: 10%;
 }
 #logocontentimg-two{
 	position:absolute;
 	width:40%;
+	height: auto;
 	top: 8%;
 	right: 10%;
 }
 #logocontentimg-three{
-    position: absolute;
+	position: absolute;
+	width: 80%;
+	height: auto;
 	top: 35%;
 	left: 10%;
 	right:10%;
@@ -477,6 +482,7 @@ h2 {
 #logocontentimg-four{
 	position: absolute;
 	width: 38%;
+	height: auto;
 	top: 28%;
 	left: 10%;
 }
@@ -488,12 +494,14 @@ h2 {
 #logocontentimg-five{
 	position: absolute;
 	width:38%;
+	height: auto;
 	top: 67%;
 	left: 10%;
 }
 #logocontentimg-six{
 	position: absolute;
 	width:38%;
+	height: auto;
 	top: 73%;
 	right:10%;
 }
