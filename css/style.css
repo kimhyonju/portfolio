@@ -413,7 +413,7 @@ h2 {
 	left: 0;
 	right: 0;
 	z-index: 2;
-	padding: 30px;
+	padding: 5%;
   }
 .logocon h3,
 .logocon p{
@@ -422,7 +422,7 @@ h2 {
 	opacity: 0;
   }
 .logocon h3 {
-	padding: 30px 0;
+	margin: 25% auto 0;
 	font-weight: 900;
 	text-transform: uppercase;
   }
@@ -479,6 +479,11 @@ h2 {
 	width: 38%;
 	top: 28%;
 	left: 10%;
+}
+#logocontentimg-four h3 {
+	margin:0;
+	font-weight: 600;
+    font-size: 15px;
 }
 #logocontentimg-five{
 	position: absolute;
