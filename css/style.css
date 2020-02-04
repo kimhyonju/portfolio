@@ -593,7 +593,6 @@ h2 {
 	padding: 0;
 	background-color: #7ed6df;
 }
-
 .swiper-container-pa {
 	width:85%;
 	height:350px;
@@ -718,6 +717,10 @@ h2 {
 	padding-bottom: 40px;
 	background-color: #9dbbbe;
 }
+#shooting h2,
+#shooting p {
+	color:#fff;
+}
 #shootingback{
 	max-width: 90%;
 	margin: 10px auto 20px;
@@ -727,85 +730,87 @@ h2 {
 #shooting-box{
 	position: relative;
 	display: block;
-	width: 90%;
-	padding: 6% 5%;
+	width: 93%;
+    padding: 5% 3%;
+	margin: 0 auto;
 }
 #shootingimg {
 	display: inline-block;
-	width: 45%;
+	width: 100%;
+	height: 300px;
 	box-shadow: 1px 5px 20px #3c585a;
 }
 #shooting-box-one{
-	display: inline-block;
+	display: block;
 	width: 100%;
-	height: 266px;
+	height: 100%;
 	background: url(../images/IMG_1486.JPG) no-repeat;
 	background-size: cover;
 }
 #shooting-box-two{
-	display: inline-block;
+	display: block;
 	width: 100%;
-	height: 266px;
+	height: 100%;
 	background: url(../images/IMG_1419.JPG) no-repeat;
 	background-size: cover;
 }
 #shooting-box-three{
-	display: inline-block;
+	display: block;
 	width: 100%;
-	height: 266px;
+	height: 100%;
 	background: url(../images/IMG_1420.JPG) no-repeat top;
 	background-size: contain;
 	background-color: #fff;
 }
 #shooting-box-four{
-	display: inline-block;
+	display: block;
 	width: 100%;
-	height: 266px;
+	height: 100%;
 	background: url(../images/IMG_0336.JPG) no-repeat;
 	background-size: cover;
 }
 #shooting-box-five {
-	display: inline-block;
+	display: block;
 	width: 100%;
-	height: 266px;
+	height: 100%;
 	background: url(../images/IMG_1532.JPG) no-repeat bottom;
 	background-size: contain;
 	background-color: #f8f0e2;
 }
 #shooting-box-six {
-	display: inline-block;
+	display: block;
 	width: 100%;
-	height: 266px;
+	height: 100%;
 	background: url(../images/IMG_1488.JPG) no-repeat bottom;
 	background-size: contain;
 	background-color: #f3f3f4;
 }
 #shooting-box-seven {
-	display: inline-block;
+	display: block;
 	width: 100%;
-	height: 266px;
+	height: 100%;
 	background: url(../images/IMG_1493.JPG) no-repeat;
 	background-size: cover;
 }
 #shooting-box-eight {
-	display: inline-block;
+	display: block;
 	width: 100%;
-	height: 266px;
+	height: 100%;
 	background: url(../images/IMG_1490.JPG) no-repeat;
 	background-size: cover;
 }
 #shooting-box-nine {
-	display: inline-block;
+	display: block;
 	width: 100%;
-	height: 266px;
+	height: 100%;
 	background: url(../images/IMG_3139.JPG) no-repeat top;
 	background-size: contain;
 	background-color: #3c585a;
 }
 #shooting-box-ten {
-	display: inline-block;
+	display: block;
 	width: 100%;
-	height: 266px;
+	height: 100%;
 	background: url(../images/IMG_4037.jpg) no-repeat;
 	background-size: cover;
 }

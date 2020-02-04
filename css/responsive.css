@@ -342,10 +342,22 @@ h2 {
 }
 #shootingimg {
 	width: 18.5%;
-	height: 266px;
-
+    height: 270px;
 	margin: 0.5%;
 }
+#shooting-box-one,
+#shooting-box-two,
+#shooting-box-three,
+#shooting-box-four,
+#shooting-box-five,
+#shooting-box-six,
+#shooting-box-seven, 
+#shooting-box-eight, 
+#shooting-box-nine, 
+#shooting-box-ten {
+	display: inline-block;
+}
+
 /*Profileコンテンツ*/
 
 /*paralax-second container*/
