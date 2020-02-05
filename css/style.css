@@ -739,6 +739,7 @@ h2 {
 	width: 100%;
 	height: 300px;
 	box-shadow: 1px 5px 20px #3c585a;
+	margin: 15px 0;
 }
 #shooting-box-one{
 	display: block;
@@ -764,17 +765,19 @@ h2 {
 	background-color: #fff;
 }
 #sh-coment01{
-    display: block;
+	display: block;
     width: 150px;
     height: 30px;
     position: absolute;
-    top: 83%;
+    top: 84%;
     left: 50%;
     margin-left: -75px;
 }
 #sh-coment01 p {
 	color:#000;
 	font-size: 1.5em;
+	font-family:'Great Vibes', cursive;
+	letter-spacing: 2px;
 }
 #shooting-box-four{
 	display: block;
@@ -784,6 +787,7 @@ h2 {
 	background-size: cover;
 }
 #shooting-box-five {
+	position: relative;
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -791,13 +795,69 @@ h2 {
 	background-size: contain;
 	background-color: #f8f0e2;
 }
+#sh-coment03 {
+    display: block;
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    top: 11%;
+    left: 5%;
+}
+#sh-coment03 p {
+	color:#accbce;
+	font-size: 1.5em;
+	letter-spacing: 2px;
+}
 #shooting-box-six {
+	position: relative;
 	display: block;
 	width: 100%;
 	height: 100%;
 	background: url(../images/IMG_1488.JPG) no-repeat bottom;
 	background-size: contain;
 	background-color: #f3f3f4;
+}
+#sh-coment0401 {
+    display: block;
+    width: 40px;
+    height: 60px;
+    position: absolute;
+    top: 0.5%;
+    left: 2%;
+    opacity: 0.4;
+}
+#sh-coment0401 p {
+    color: #c15722;
+    font-size: 3.5em;
+	font-family:'Great Vibes', cursive;
+}
+#sh-coment0402 {
+	display: block;
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    top: 6%;
+    left: 22%;
+    opacity: 0.4;
+}
+#sh-coment0402 p {
+    color: #c15722;
+    font-size: 0.8em;
+    letter-spacing: 1.5px;
+}
+#sh-coment0403 {
+    display: block;
+    width: 180px;
+    height: 30px;
+    position: absolute;
+    top: 8.5%;
+    left: 22%;
+    opacity: 0.4;
+}
+#sh-coment0403 p {
+    color: #c15722;
+    font-size: 1.5em;
+    letter-spacing: 5px;
 }
 #shooting-box-seven {
 	display: block;
@@ -814,12 +874,29 @@ h2 {
 	background-size: cover;
 }
 #shooting-box-nine {
+	position: relative;
 	display: block;
 	width: 100%;
 	height: 100%;
 	background: url(../images/IMG_3139.JPG) no-repeat top;
 	background-size: contain;
 	background-color: #3c585a;
+}
+#sh-coment02 {
+    display: block;
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 83%;
+    left: 50%;
+	margin-left: -70px;
+	opacity: 0.7;
+}
+#sh-coment02 p {
+	color:#fff;
+	font-size: 1.5em;
+	font-family: 'Playfair Display SC', serif;
+	letter-spacing: 2px;
 }
 #shooting-box-ten {
 	display: block;

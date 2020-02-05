@@ -358,17 +358,35 @@ h2 {
 	display: inline-block;
 }
 #sh-coment01{
-	display: block;
-    width: 105px;
-    height: 20px;
-    position: absolute;
+    width: 145px;
+    height: 30px;
     top: 75%;
     left: 50%;
-    margin-left: -52px;
 }
-#sh-coment01 p {
-	color:#000;
-	font-size: 1em;
+#sh-coment02 {
+    width: 145px;
+    height: 30px;
+    top: 70%;
+    left: 50%;
+    margin-left: -72px;
+}
+#sh-coment03 {
+    width: 120px;
+    height: 60px;
+    left: 50%;
+    margin-left: -72px;
+}
+#sh-coment0401 {
+    top: 12%;
+    left: 5%;
+}
+#sh-coment0402 {
+    top: 16.5%;
+    left: 58%;
+}
+#sh-coment0403 {
+    top: 20%;
+    left: 32%;
 }
 /*Profileコンテンツ*/
 
