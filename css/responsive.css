@@ -406,13 +406,19 @@ h2 {
 }
 .paraconpc-two p{
 	display: block;
-    width: 100%;
-	position: absolute;
-	top: 40%;
-    font-size: 2em;
-    color: #fff;    
-	text-align: center;
-	text-shadow: 2px 2px 2px #000;
+    width: 25%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-size: 1em;
+    line-height: 2em;
+    letter-spacing: 0.05em;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+    background-color: #1f1711a1;
+    padding: 1%;
+    border-radius: 20px;
 }
 
 .paraconsm-two01,
