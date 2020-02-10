@@ -716,6 +716,8 @@ h2 {
 	margin: 0;
 	padding-bottom: 40px;
 	background-color: #9dbbbe;
+	background: url(../images/mainslide_2.jpg) no-repeat;
+	background-size: cover;
 }
 #shooting h2,
 #shooting p {
@@ -725,7 +727,7 @@ h2 {
 	max-width: 90%;
 	margin: 10px auto 20px;
 	background-color: #d8e4e5;
-	box-shadow: 10px 10px 15px #3c585a;
+	box-shadow: 10px 10px 15px #121d32de;
 }
 #shooting-box{
 	position: relative;
