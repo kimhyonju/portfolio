@@ -743,6 +743,11 @@ h2 {
 	box-shadow: 1px 5px 20px #3c585a;
 	margin: 15px 0;
 }
+@media all and (min-width:500px) and (max-width:768px) {
+	#shootingimg {
+		height: 480px;
+	}
+}
 #shooting-box-one{
 	display: block;
 	width: 100%;
