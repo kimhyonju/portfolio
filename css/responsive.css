@@ -231,7 +231,17 @@ h2 {
 /*paralax-first container*/
 .paraconpc{
 	display: block;
-	background: url('../images/IMG_1768.JPG') no-repeat bottom;
+	width:100%;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+	margin: 20px 0px;
+}
+.paraconpc img{
+	width: 100vw;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 .paraconpc p{
 	display: block;
@@ -245,17 +255,7 @@ h2 {
 	text-shadow: 2px 2px 2px #000;
 	font-family: 'Playfair Display SC', serif;
 }
-#parafirst-container{
-	width:100%;
-	height: 300px;
-	position: relative;
-	overflow: hidden;
-	margin: 20px 0px;
-}
-.bg-holder{
-	width:100%;
-	height:100%;
-}
+
 .paraconsm{
 	display: none;
 }
@@ -390,16 +390,19 @@ h2 {
 /*Profileコンテンツ*/
 
 /*paralax-second container*/
-#parasecond-container{
+.paraconpc-two{
+	display: inline-block;
 	width:100%;
 	height: 600px;
 	position: relative;
 	overflow: hidden;
 	margin: 20px 0px;
 }
-.paraconpc-two{
-	display: inline-block;
-	background: url('../images/IMG_1428-1.jpg') no-repeat center;
+.paraconpc-two img{
+	width: 100vw;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 .paraconpc-two p{
 	display: block;
@@ -411,10 +414,7 @@ h2 {
 	text-align: center;
 	text-shadow: 2px 2px 2px #000;
 }
-.bg-holder{
-	width:100%;
-	height:100%;
-}
+
 .paraconsm-two {
 	display: none;
 }

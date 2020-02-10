@@ -222,7 +222,8 @@
 		<!--Logo contents End-->
 		<!--Parallax-scroll Start-->
 			<!--PC version-->
-		<div id="parafirst-container" class="paraconpc bg-holder" data-width="4032" data-height="3024">
+		<div class="paraconpc">
+			<img src="images/IMG_1768.JPG" data-parallax='{"y": 530}'/>
 			<p>Unique. Creative.</p>
 		</div>
 			<!--Mobile version-->
@@ -359,7 +360,8 @@
 					</div>
 			<!--Parallax-scroll Start-->
 				<!--PC version-->
-					<div id="parasecond-container" class="paraconpc-two bg-holder" data-width="1536" data-height="1024">
+					<div class="paraconpc-two">
+						<img src="images/IMG_1428-1.jpg" data-parallax='{"y": 530}'/>
 						<p>Do it</p>
 					</div>
 						<!--Mobile version-->
@@ -402,7 +404,8 @@
 	<script src="js/wow.min.js"></script>
 	<script src="js/jquery.scrollTo.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/jquery.parallax-scroll.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.parallax-scroll.js"></script>
 	<script src="js/swiper.min.js"></script>
 	<script src="js/lazyload.js"></script>
 
@@ -559,12 +562,7 @@
 				$(this).removeClass("hover");
 			}
 		);
-		/*paralax-first container*/
-		$(function () {
-			$('.bg-holder').parallaxScroll({
-			friction:0.3
-			});
-		});
+	
 		//printのコンテンツのSlide(Swipe)
 		$(function () {
 			var swiper = new Swiper('.swiper-container', {
