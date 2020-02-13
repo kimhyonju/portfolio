@@ -787,17 +787,20 @@ h2 {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	font-size: 1em;
-	color: #fff;
 	opacity: 0;
 }
-.sh-hover p{
+.sh-hover > p{
 	position: absolute;
-    top: 45%;
-    left: 50%;
-    margin-left: -50px;
+    width: 100%;
+    display: block;
+    text-align: center;
+	top: 45%;
+	font-size: 1.5em;
+    letter-spacing: 2px;
+	opacity: 0.8;
+	font-family:'Great Vibes', cursive;
 }
-.sh-hover:hover{
+.sh-hover:hover {
 	opacity: 1;
 	z-index: 1;
 }
@@ -817,7 +820,6 @@ h2 {
 	background-size: cover;
 }
 #shooting-box-three{
-	position: relative;
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -834,7 +836,7 @@ h2 {
     left: 50%;
     margin-left: -75px;
 }
-#sh-coment01 p {
+#sh-coment01 > p {
 	color:#000;
 	font-size: 1.5em;
 	font-family:'Great Vibes', cursive;
@@ -848,7 +850,6 @@ h2 {
 	background-size: cover;
 }
 #shooting-box-five {
-	position: relative;
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -864,13 +865,12 @@ h2 {
     top: 11%;
     left: 5%;
 }
-#sh-coment03 p {
+#sh-coment03 > p {
 	color:#accbce;
 	font-size: 1.5em;
 	letter-spacing: 2px;
 }
 #shooting-box-six {
-	position: relative;
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -888,7 +888,7 @@ h2 {
 	opacity: 0.4;
  /* z-index: 1; */
 }
-#sh-coment0401 p {
+#sh-coment0401 > p {
     color: #c15722;
     font-size: 3.5em;
 	font-family:'Great Vibes', cursive;
@@ -902,7 +902,7 @@ h2 {
     left: 22%;
     opacity: 0.4;
 }
-#sh-coment0402 p {
+#sh-coment0402 > p {
     color: #c15722;
     font-size: 0.8em;
     letter-spacing: 1.5px;
@@ -916,7 +916,7 @@ h2 {
     left: 22%;
     opacity: 0.4;
 }
-#sh-coment0403 p {
+#sh-coment0403 > p {
     color: #c15722;
     font-size: 1.5em;
     letter-spacing: 5px;
@@ -936,7 +936,7 @@ h2 {
 	background-size: cover;
 }
 #shooting-box-nine {
-	position: relative;
+	/*position: relative;*/
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -954,7 +954,7 @@ h2 {
 	margin-left: -70px;
 	opacity: 0.7;
 }
-#sh-coment02 p {
+#sh-coment02 > p {
 	color:#fff;
 	font-size: 1.5em;
 	font-family: 'Playfair Display SC', serif;
