@@ -205,16 +205,16 @@ nav #trigger p{
 	position: absolute;
 	right:65px;
 	font-size:1.5em;
-	line-height:55px;
+	line-height:50px;
 	color:#fff;
 }
 #engname{
 	position: absolute;
-	left:20px;
+	left:15px;
 	font-family:'Great Vibes', cursive;
 	color:#fff;
-	line-height:60px;
-	font-size:2.8em;
+	line-height:70px;
+	font-size:2.5em;
 	letter-spacing:3px;
 	font-weight:300;
 }
