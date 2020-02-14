@@ -1022,6 +1022,44 @@ h2 {
     position: absolute;
     z-index: -1;
   }
+.paraconsm-progress{
+	width: 80%;
+	position: relative;
+	margin: 10% auto;
+}
+.progresssm-title{
+	color: #fff;
+	display: block;
+	margin: 10px 0px 3px 0px;
+}
+.progresssm {
+	width: 90%;
+	height: 5px;
+	background-color: #fff;
+	border-radius: 20px;
+	display: inline-block;
+	opacity: 0.8;
+}
+.progresssm-bar {
+	height: 5px;
+	background-color: rgb(94, 93, 93);
+	border-radius: 20px;
+}
+.progresssm-num {
+	font-size: 0.5em;
+	color: #fff;
+	display: inline-block;
+	margin: 5px 2px;
+}
+.barsm01{
+	width: 80%;
+}
+.barsm02{
+	width: 70%;
+}
+.barsm03{
+	width: 80%;
+}
 /*フッター*/
 #footsec {
 	width:100%;
