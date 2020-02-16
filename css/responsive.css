@@ -463,6 +463,24 @@ h2 {
 .bar03{
 	width: 80%;
 }
+.circlepc{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background-color:#c1c1c175;
+	border-radius: 50px;
+	margin: 8% 5% 10% 1%;
+}
+.circlepc p {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	color: #fff;
+	top: 25%;
+	font-size: 0.8em;
+}
+
 .paraconsm-two01,
 .paraconsm-two02 {
 	display: none;
