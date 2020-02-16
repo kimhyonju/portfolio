@@ -1061,11 +1061,13 @@ h2 {
 }
 #circlesm{
 	width: 80%;
-    margin: 2% auto;
+	margin: 2% auto;
+	text-align: center;
 }
 @media all and (min-width:500px) and (max-width:768px) {
 	#circlesm{
 		margin: 0;
+		text-align: left;
 	}
 }
 .circlesm{
@@ -1082,7 +1084,7 @@ h2 {
 	text-align: center;
 	position: relative;
 	color: #fff;
-	padding: 20px 0;
+	padding: 25px 0;
 	font-size: 0.7em;
 }
 /*フッター*/
