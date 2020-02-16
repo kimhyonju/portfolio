@@ -483,17 +483,10 @@ footer section{
 	left:50%;
 	margin-left: -250px;
 }
-#namecardimg {
-	width:60%;
-	position: relative;
-    left: 40%;
-}
 .footcontac {
-	padding: 13% 3%;
+	padding: 13% 0;
 	letter-spacing: 1.5px;
-	left: 5%;
 }
-
 #footdown-box{
 	max-width:1000px;
 }
