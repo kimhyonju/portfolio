@@ -1083,10 +1083,10 @@ h2 {
 footer section{
 	display: block;
 	width: 90%;
-	height: 280px;
+	height: 230px;
 	background: linear-gradient(to left,#c1c1c1,#9dbbbe);
 	position: absolute;
-	top:15%;
+	top:23%;
 	left: 5%;
 	box-shadow:-20px 40px 45px #3c585a;
 	overflow: hidden;
@@ -1094,11 +1094,10 @@ footer section{
 
 @media all and (min-width:500px) and (max-width:768px) {
 	footer section{
-		height: 380px;
+		height: 350px;
 		top:15%;
 		left: 5%;
 	}
-
 }
 .footcontac {
 	display: inline-block;
