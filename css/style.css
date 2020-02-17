@@ -203,7 +203,7 @@ nav #trigger::after {
 nav #trigger p{
 	position: absolute;
 	right:65px;
-	font-size:1.5em;
+	font-size:2em;
 	line-height:50px;
 	color:#fff;
 }
