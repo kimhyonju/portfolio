@@ -1059,6 +1059,42 @@ h2 {
 .barsm03{
 	width: 80%;
 }
+.barsm01{
+	animation: progressing01 7s;
+	animation-delay: 0.8s;
+}
+.barsm02{
+	animation: progressing02 7s;
+	animation-delay: 0.8s;
+}
+.barsm03{
+	animation: progressing03 7s;
+	animation-delay: 0.8s;
+}
+	@keyframes progressing01 {
+		0%{
+		Width:0%;
+		}
+		100%{
+		Width:80%;
+		}
+	}
+	@keyframes progressing02 {
+		0%{
+		Width:0%;
+		}
+		100%{
+		Width:70%;
+		}
+	}
+	@keyframes progressing03 {
+		0%{
+		Width:0%;
+		}
+		100%{
+		Width:80%;
+		}
+	}
 #circlesm{
 	width: 80%;
 	margin: 2% auto;

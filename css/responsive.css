@@ -463,6 +463,42 @@ h2 {
 .bar03{
 	width: 80%;
 }
+.bar01{
+	animation: progressing01 7s;
+	animation-delay: 1s;
+}
+.bar02{
+	animation: progressing02 7s;
+	animation-delay: 1s;
+}
+.bar03{
+	animation: progressing03 7s;
+	animation-delay: 1s;
+}
+	@keyframes progressing01 {
+		0%{
+		Width:0%;
+		}
+		100%{
+		Width:80%;
+		}
+	}
+	@keyframes progressing02 {
+		0%{
+		Width:0%;
+		}
+		100%{
+		Width:70%;
+		}
+	}
+	@keyframes progressing03 {
+		0%{
+		Width:0%;
+		}
+		100%{
+		Width:80%;
+		}
+	}
 .circlepc{
 	display: inline-block;
 	width: 80px;
