@@ -469,15 +469,15 @@ h2 {
 }
 .bar01{
 	animation: progressing01 7s;
-	animation-delay: 1s;
+	animation-delay: 0.5s;
 }
 .bar02{
 	animation: progressing02 7s;
-	animation-delay: 1s;
+	animation-delay: 0.5s;
 }
 .bar03{
 	animation: progressing03 7s;
-	animation-delay: 1s;
+	animation-delay: 0.5s;
 }
 	@keyframes progressing01 {
 		0%{
