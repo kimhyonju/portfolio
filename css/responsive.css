@@ -116,16 +116,20 @@ h2 {
 .web-box:hover img,
 .web-box .hover img{
 	filter:brightness(0.5);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
 }
-.web-box-caption h3{
+.web-box-caption .sm-search{
+	font-size: 1em;
+	color:rgba(80, 80, 80, 0.75);
+}
+.web-box-caption .pc-search{
+	display: block;
 	position: absolute;
 	top: 40%;
 	left: -30%;
 	width: 100%;
-	font-size: 1.2em;
-	font-style: italic;
+	font-size: 1.8em;
 	color: #fff;
 	-webkit-transform: scale(0.5) translate(0%, -50%);
 	transform: scale(0.5) translate(0%, -50%);
@@ -136,8 +140,8 @@ h2 {
 	opacity: 0;
 	padding: 150px 90px 150px 100px;
 }
-.web-box-caption:hover h3,
-.web-box-caption .hover h3{
+.web-box-caption:hover .pc-search,
+.web-box-caption .hover .pc-search{
 	-webkit-transform: scale(1) translate(0, -50%);
 	transform: scale(1) translate(0, -50%);
 	opacity: 1;
