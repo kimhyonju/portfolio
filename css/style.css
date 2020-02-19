@@ -1059,7 +1059,7 @@ h2 {
 }
 .progresssm-bar {
 	height: 5px;
-	background-color: rgb(94, 93, 93);
+	background-color: #22a6b3fc;
 	border-radius: 20px;
 }
 .progresssm-num {
