@@ -167,11 +167,7 @@ h2 {
 #web-fourth, #web-fifth {
 	grid-row:1/2;
 }
-.web-box p{
-	padding-top: 7px;
-	font-size: 1em;
-	font-weight:300;
-}
+
 /*LOGO,EVENT コンテンツ*/
 .logodesign{
 	display: block;

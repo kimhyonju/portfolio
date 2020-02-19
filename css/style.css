@@ -276,11 +276,22 @@ h2 {
 .web-box-caption .pc-search{
 	display: none;
 }
+
 .web-box p{
 	font-family:'M PLUS Rounded 1c';
 	color:#666;
 	padding-top: 10px;
-    font-size: 1em;
+    font-size: 0.8em;
+}
+.p-bar:before {
+	content: "";
+    display: inline-block;
+    background: #3c585ade;
+    width: 0.6em;
+    height: 1.3em;
+    margin-right: 10px;
+    position: relative;
+    top: 4px;
 }
 #columns{
 	display:grid;
