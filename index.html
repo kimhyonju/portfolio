@@ -250,13 +250,13 @@
 			  <div class="swiper-container-pa">
 					<div class="swiper-container">
 						<div class="swiper-wrapper">
-						<div class="swiper-slide" ><img class="lazyload" data-src="images/print_01.jpg"></div>
-						<div class="swiper-slide" ><img class="lazyload" data-src="images/print_02.jpg"></div>
-						<div class="swiper-slide" ><img class="lazyload" data-src="images/print_03.jpg"></div>
-						<div class="swiper-slide" ><img class="lazyload" data-src="images/print_04.jpg"></div>
-						<div class="swiper-slide" ><img class="lazyload" data-src="images/print_05.jpg"></div>
-						<div class="swiper-slide" ><img class="lazyload" data-src="images/print_06.jpg"></div>
-						<div class="swiper-slide" ><img class="lazyload" data-src="images/print_07.jpg"></div>
+						<div class="swiper-slide" ><img class="swiper-lazy" data-src="images/print_01.jpg"></div>
+						<div class="swiper-slide" ><img class="swiper-lazy" data-src="images/print_02.jpg"></div>
+						<div class="swiper-slide" ><img class="swiper-lazy" data-src="images/print_03.jpg"></div>
+						<div class="swiper-slide" ><img class="swiper-lazy" data-src="images/print_04.jpg"></div>
+						<div class="swiper-slide" ><img class="swiper-lazy" data-src="images/print_05.jpg"></div>
+						<div class="swiper-slide" ><img class="swiper-lazy" data-src="images/print_06.jpg"></div>
+						<div class="swiper-slide" ><img class="swiper-lazy" data-src="images/print_07.jpg"></div>
 						</div>
 						<!-- Add Pagination -->
 						<div class="swiper-pagination"></div>
@@ -654,6 +654,8 @@
 			autoplay : { // auto　play
 				delay : 0, // 遅れない
 			},
+			preloadImages: false,
+			lazy: true,
 			speed : 2000, // スライド速度2000
 			coverflowEffect: {
 				rotate: 50, //スライドの回転角度、大きいほど回る
