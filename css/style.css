@@ -30,16 +30,13 @@ a:link, a:visited{
 	padding:0;
 }
 .mainslide-first{
-	background: url('../images/mainslide_1.jpg') no-repeat center center fixed;
-	background-size:cover;
+	background: url('../images/mainslide_1.jpg') no-repeat center center;
 }
 .mainslide-second{
-	background: url('../images/mainslide_2.jpg') no-repeat center center fixed;
-	background-size:cover;
+	background: url('../images/mainslide_2.jpg') no-repeat center center;
 }
 .mainslide-third{
-	background: url('../images/mainslide_3.jpg') no-repeat center center fixed;
-	background-size:cover;
+	background: url('../images/mainslide_3.jpg') no-repeat center center;
 }
 .maincm {
 	width:100%;
