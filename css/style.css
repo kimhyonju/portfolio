@@ -241,6 +241,28 @@ h2 {
 	color:black;
 	text-align:center;
 }
+.main-title::before,
+.main-title::after{
+	content: "";
+	display: inline-block;
+    width: 20px;
+    height: 6px;
+    background: #0b0b0b;
+    margin: 0 10px;
+    position: relative;
+    top: 1px;
+}
+.main-titlepg::before,
+.main-titlepg::after{
+	content: "";
+	display: inline-block;
+    width: 20px;
+    height: 6px;
+    background: #fff;
+    margin: 0 10px;
+    position: relative;
+    top: 1px;
+}
 .fadeIn > p{
 	font-family:'M PLUS Rounded 1c';
 	font-size:1em;
