@@ -154,7 +154,7 @@ p.mainbotb{
 	z-index: 999;
 } 
 #navinoba.scrolled{
-	background-color:rgb(126, 214, 223,0.9)!important;
+	background: linear-gradient(to right,rgb(125, 214, 223,0.9) 30%,#098598cf);
 	transition: background-color 600ms linear;
   }
 
@@ -619,7 +619,7 @@ h2 {
     color: #fff;
     opacity: 0.2;
 	position: relative;
-	top:140px;
+	top:180px;
 }
 .gra-box-two {
 	display: block;
@@ -645,7 +645,7 @@ h2 {
 	width: 100%;
 	height: 630px;
 	margin: 0;
-	padding: 0;
+	padding: 50px 0;
 	background-color: #7ed6df;
 }
 .swiper-container-pa {

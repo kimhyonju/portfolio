@@ -258,7 +258,7 @@ h2 {
 	width:500px;
     font-size: 10em;
 	letter-spacing: 20px;
-	top:310px;
+	top:345px;
 }
 .gra-box-two {
 	height: 300px;
@@ -271,7 +271,7 @@ h2 {
 }
 /*Print コンテンツ*/
 #printdesign{
-	height: 800px;
+	height: 950px;
 }
 .swiper-container-pa {
 	width:70%;
