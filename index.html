@@ -468,6 +468,11 @@
 		
 	</footer>
 	<!--footer End-->
+
+	<!--TOP button start-->
+	<a class="topBtn" href="#"><i class="fas fa-arrow-alt-circle-up"></i></a>
+	<!--TOP button end-->
+	
 	<!--Javascript Start-->
 	<script src="js/jquery-2.2.4.min.js"></script>
 	<script src="js/jquery.vgrid.min.js"></script>
@@ -702,6 +707,24 @@
 		});
 
 		lazyload();
+
+		//Top button スムーズに移動する。
+		$(function() {
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 250) { //250 超えたらボタンが見える
+				$('.topBtn').fadeIn();
+				} else {
+				$('.topBtn').fadeOut();
+				}
+			});
+
+			$(".topBtn").click(function() {
+				$('html, body').animate({
+				scrollTop : 0 	// 0 まで animation 移動する
+				}, 800);  		// 速度 800
+				return false;
+			});
+			});
 
 	</script>
 	<!--Javascript End-->

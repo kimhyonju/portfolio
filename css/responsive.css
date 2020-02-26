@@ -220,7 +220,7 @@ h2 {
 #logocontentimg-six{
 	width: 280px;
     height: 353px;
-	top:49%;
+	top:47%;
 	right:0;
 }
 /*paralax-first container*/
@@ -584,5 +584,18 @@ footer section{
     width: 49%;
 	margin: 1% 0;
 	text-align: right;
+}
+.topBtn{
+	display: block;
+	cursor:pointer;
+	position: fixed;
+	right: 2%; 
+	bottom: 2%; 
+	display: none; 
+	z-index: 9999;
+}
+.fa-arrow-alt-circle-up{
+	font-size: 2.5em;
+    color: #65a0a6;
 }
 /*PC対応css End-------------------------------------------------------------------------------------------------*/

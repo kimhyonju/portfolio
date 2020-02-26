@@ -1254,3 +1254,6 @@ footer section{
 	margin: 1% auto;
 	text-align: center;
 }
+.topBtn{
+	display: none;
+}
