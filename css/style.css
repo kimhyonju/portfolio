@@ -933,48 +933,24 @@ h2 {
 	background-size: contain;
 	background-color: #f3f3f4;
 }
-#sh-coment0401 {
-    display: block;
-    width: 100px;
+#sh-coment0401,
+#sh-coment0402,
+#sh-coment0403 {
+	display: none;
+}
+#sh-coment0404 {
+	display: block;
+    width: 300px;
     height: 60px;
     position: absolute;
-    top: 0.5%;
-    left: 2%;
-	opacity: 0.4;
- /* z-index: 1; */
-}
-#sh-coment0401 > p {
-    color: #c15722;
-    font-size: 3.5em;
-	font-family:'Great Vibes', cursive;
-}
-#sh-coment0402 {
-	display: block;
-    width: 80px;
-    height: 20px;
-    position: absolute;
-    top: 6%;
-    left: 22%;
     opacity: 0.4;
+    top: 11%;
+    left: 3%;
 }
-#sh-coment0402 > p {
-    color: #c15722;
-    font-size: 0.8em;
-    letter-spacing: 1.5px;
-}
-#sh-coment0403 {
-    display: block;
-    width: 180px;
-    height: 30px;
-    position: absolute;
-    top: 8.5%;
-    left: 22%;
-    opacity: 0.4;
-}
-#sh-coment0403 > p {
+#sh-coment0404 > p {
     color: #c15722;
     font-size: 1.5em;
-    letter-spacing: 5px;
+    letter-spacing: 1.5px;
 }
 #shooting-box-seven {
 	display: block;

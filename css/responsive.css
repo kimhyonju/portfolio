@@ -367,16 +367,49 @@ h2 {
     margin-left: -72px;
 }
 #sh-coment0401 {
+	display: block;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+	opacity: 0.4;
     top: 12%;
     left: 5%;
 }
+#sh-coment0401 > p {
+    color: #c15722;
+    font-size: 3.5em;
+	font-family:'Great Vibes', cursive;
+}
 #sh-coment0402 {
+	display: block;
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    opacity: 0.4;
     top: 16.5%;
     left: 58%;
 }
+#sh-coment0402 > p {
+    color: #c15722;
+    font-size: 0.8em;
+    letter-spacing: 1.5px;
+}
 #sh-coment0403 {
+	display: block;
+    width: 180px;
+    height: 30px;
+    position: absolute;
+    opacity: 0.4;
     top: 20%;
     left: 32%;
+}
+#sh-coment0403 > p {
+    color: #c15722;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+}
+#sh-coment0404 {
+	display: none;
 }
 /*Profileコンテンツ*/
 
