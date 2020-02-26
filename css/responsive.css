@@ -165,7 +165,7 @@ h2 {
 .logodesign{
 	display: block;
 	overflow: visible;
-	max-width:1000px;
+	max-width:1200px;
 	height: 900px;
 	padding:0;
 	margin: 0 auto;
@@ -174,15 +174,20 @@ h2 {
 	margin: 10% 30% 20% 80%;
 }
 .logoback-fourth{
-	margin: 40% 0% 20% -20%;
+	margin: 40% 0% 0% -10%;
+}
+.logoback-fifth{
+	margin: -10% 10% 10% 20%;
 }
 #logocontentimg-one{
-	width:300px;
-    height:300px;
+	width:330px;
+    height:330px;
 	top:5%;
-	left:-10%;
+	left:0%;
 }
-
+.logo-coment {
+	margin: 10% auto;
+}
 .logo-coment p{
 	font-size: 0.9em;
 }
@@ -190,33 +195,32 @@ h2 {
 	width:300px;
     height:402px;
     top: 5%;
-	left: 25%;
+	left: 35%;
 	right: 0;
 }
 #logocontentimg-three{
 	width:450px;
     height:363px;
-	top: 50%;
-	left: 45%;
+	top: 55%;
+	left: 15%;
 	right:0;
 }
-#logocontentimg-four{
+/*#logocontentimg-four{
 	width: 450px;
     height:75px;
 	top: 60%;
 	left: -15%;
-}
+}*/
 #logocontentimg-five{
-	width: 250px;
-    height:333px;
-	top: 11%;
-	left: 73%;
+	width: 300px;
+    height: 373px;
+	top: 7%;
+	left: 68%;
 }
 #logocontentimg-six{
-	width: 250px;
-    height:333px;
-	top:45%;
-	left:98%;
+	width: 280px;
+    height: 353px;
+	top:49%;
 	right:0;
 }
 /*paralax-first container*/

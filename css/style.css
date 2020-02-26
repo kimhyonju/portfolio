@@ -351,7 +351,7 @@ h2 {
 	position: absolute;
     width: 450px;
     height: 450px;
-	margin: 10% 30% 20% 60%;
+	margin: 10% 40% 10% 50%;
     border-radius: 40px;
     opacity: 0.6;
     border: 1px solid #7ed6df;
@@ -361,7 +361,7 @@ h2 {
 	position: absolute;
     width: 450px;
     height: 450px;
-    margin: -10% 0% 0% -10%;
+    margin: 10% 10% 10% 10%;
     border-radius: 40px;
     opacity: 0.6;
 	background-color: #7ed6df;
@@ -370,7 +370,7 @@ h2 {
 	position: absolute;
     width: 450px;
     height: 450px;
-    margin: 20% 0% 0% 20%;
+    margin: 10% 0% 0% 10%;
     border-radius: 40px;
     opacity: 0.6;
 	border: 1px solid #000;
@@ -505,14 +505,15 @@ h2 {
      /*--logocon hover end----*/
 #logocontentimg-one{
 	position:absolute;
-	width:39%;
+	width:38%;
 	height: auto;
+	top: 5%;
 	left: 10%;
 }
 .logo-coment {
     width: 110px;
     padding: 2%;
-	margin: 5% auto;
+	margin: 18% auto;
 	text-align: center;
     border-radius: 5px 50px;
     background-color:#03767e;
@@ -536,9 +537,9 @@ h2 {
 }
 #logocontentimg-two{
 	position:absolute;
-	width:40%;
+	width:39%;
 	height: auto;
-	top: 8%;
+	top: 13%;
 	right: 10%;
 }
 #logocontentimg-three{
@@ -549,7 +550,7 @@ h2 {
 	left: 10%;
 	right:10%;
 }
-#logocontentimg-four{
+/*#logocontentimg-four{
 	position: absolute;
 	width: 38%;
 	height: auto;
@@ -560,19 +561,19 @@ h2 {
 	margin:0;
 	font-weight: 600;
     font-size: 15px;
-}
+}*/
 #logocontentimg-five{
 	position: absolute;
 	width:38%;
 	height: auto;
-	top: 67%;
+	top: 63%;
 	left: 10%;
 }
 #logocontentimg-six{
 	position: absolute;
 	width:38%;
 	height: auto;
-	top: 73%;
+	top: 69%;
 	right:10%;
 }
 /*paralax-first container*/
