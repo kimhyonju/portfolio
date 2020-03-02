@@ -123,12 +123,34 @@ p.mainbotb{
     width: 120px;
     height: 50px;
     line-height: 50px;
-    margin: 5px 0 10px -60px;
-	-webkit-animation: bounce 3000ms infinite;
-    animation: bounce 3000ms infinite;
+	margin: 5px 0 10px -60px;
+	z-index: 1;
+/*	-webkit-animation: bounce 3000ms infinite;
+	animation: bounce 3000ms infinite;
+*/	
 }
-.startbt:hover{
-	background: linear-gradient(to right,#06666f,#7ed6df,#06666f);
+.startbt,
+.startbt::after {
+	-webkit-transition: all 0.2s;
+	-mos-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.startbt::before,
+.startbt::after {
+	content: "";
+	position: absolute;
+	border-radius: 10px;
+	background: linear-gradient(to right,#22a6b3,#7ed6df);
+	opacity: 0.9;
+	height: 0;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+.startbt:hover:after {
+	height: 100%;
 }
 .slide-icon{
 	position:absolute;
@@ -142,7 +164,6 @@ p.mainbotb{
     -webkit-animation: bounce 3000ms infinite;
     animation: bounce 3000ms infinite;
 }
-
 
 /* ナビゲーション */
 
