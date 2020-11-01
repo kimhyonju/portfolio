@@ -16,10 +16,14 @@ resource "aws_s3_bucket" "kimhyonju-portfolio" {
   bucket        = "kimhyonju-portfolio"
   force_destroy = false
   region        = "ap-northeast-1"
+  tags = {
+    "Service" = "kimhyonju-portfolio"
+  }
+
 }
 
 resource "aws_s3_bucket_policy" "kimhyonju-portfolio" {
-  bucket = "${aws_s3_bucket.kimhyonju-portfolio.id}"
+  bucket = aws_s3_bucket.kimhyonju-portfolio.id
   policy = <<POLICY
     {
       "Version": "2012-10-17",
@@ -43,14 +47,16 @@ locals {
   s3_origin_id = "S3-kimhyonju-portfolio"
 }
 resource "aws_cloudfront_distribution" "kimhyonju-portfolio_distribution" {
-  aliases                        = []
-  enabled                        = true
-  http_version                   = "http2"
-  is_ipv6_enabled                = true
-  price_class                    = "PriceClass_All"
-  retain_on_delete               = false
-  tags                           = {}
-  wait_for_deployment            = true
+  aliases          = []
+  enabled          = true
+  http_version     = "http2"
+  is_ipv6_enabled  = true
+  price_class      = "PriceClass_All"
+  retain_on_delete = false
+  tags = {
+    "Service" = "kimhyonju-portfolio"
+  }
+  wait_for_deployment = true
 
   default_cache_behavior {
     allowed_methods = [
@@ -66,7 +72,7 @@ resource "aws_cloudfront_distribution" "kimhyonju-portfolio_distribution" {
     max_ttl                = 31536000
     min_ttl                = 0
     smooth_streaming       = false
-    target_origin_id       = "${local.s3_origin_id}"
+    target_origin_id       = local.s3_origin_id
     trusted_signers        = []
     viewer_protocol_policy = "allow-all"
 
@@ -83,8 +89,8 @@ resource "aws_cloudfront_distribution" "kimhyonju-portfolio_distribution" {
   }
 
   origin {
-    domain_name = "${aws_s3_bucket.kimhyonju-portfolio.bucket_domain_name}"
-    origin_id   = "${local.s3_origin_id}"
+    domain_name = aws_s3_bucket.kimhyonju-portfolio.bucket_domain_name
+    origin_id   = local.s3_origin_id
 
     s3_origin_config {
       origin_access_identity = "origin-access-identity/cloudfront/E2TQMNU2GUNNZ4"
